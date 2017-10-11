@@ -7,12 +7,14 @@ import org.apache.jena.query.QueryFactory;
 import org.apache.jena.query.QuerySolution;
 import org.apache.jena.rdf.model.Literal;
 import org.apache.jena.rdf.model.Model;
+import org.apache.jena.rdf.model.RDFNode;
 import org.apache.jena.util.FileManager;
 
 public class SparqlTest {
 	
 	//private static String inputFileName = "/Users/jasontan/Documents/workspace/jena-app/src/peel.rdf";
-	private static String inputFileName = "/Users/jasontan/Documents/workspace/jena-app/src/NTNames.owl";
+	//private static String inputFileName = "/Users/jasontan/Documents/workspace/jena-app/src/NTNames.owl";
+	private static String inputFileName = "/Users/jasontan/Documents/workspace/jena-app/src/vc-db-1.rdf";
 
 	public static void main(String[] args) {
 		sparqlTest();
@@ -23,15 +25,9 @@ public class SparqlTest {
 		Model model = FileManager.get().loadModel(inputFileName);
 		
 		String queryString = 
-//						"PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>" +
-//						"PREFIX foaf: <http://xmlns.com/foaf/0.1/>" +
-						"SELECT * where { " +
-//						" ?person foaf:name ?x ." +
-//						" FILTER(?x = \"Damires Souza\") " +
-//						" ?person foaf:knows ?person2 ." +
-//						" ?person2 foaf:name ?y ." +
-//						" FILTER(?y = \"Valeria Cavalcanti\") " + 
-						"}";
+						"SELECT * " +
+						"WHERE { ?x <http://www.w3.org/2001/vcard-rdf/3.0#FN> ?fname }";
+						//"WHERE { ?y <http://www.w3.org/2001/vcard-rdf/3.0#Family> \"Smith\" . ?y ?x <http://www.w3.org/2001/vcard-rdf/3.0#Given> ?givenName .}";
 		
 		Query query = QueryFactory.create(queryString);
 		QueryExecution qexec = QueryExecutionFactory.create(query, model);
@@ -40,8 +36,10 @@ public class SparqlTest {
 			org.apache.jena.query.ResultSet results = qexec.execSelect();
 			while ( results.hasNext() ){
 				QuerySolution solution = results.nextSolution();
-				Literal name = solution.getLiteral("x");
-				System.out.println(name);
+				//Literal name = solution.getLiteral("x");
+				RDFNode name = solution.get("x");
+				String a = name.toString();
+				System.out.println(a);
 			}
 		} finally {
 			qexec.close();

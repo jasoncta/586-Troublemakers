@@ -8,8 +8,10 @@ import org.apache.jena.util.FileManager;
 
 public class Main {
 	
+	//private static String inputFileName = "/Users/jasontan/Documents/workspace/jena-app/src/NYCpopulation.rdf";
+	//private static String inputFileName = "/Users/jasontan/Documents/workspace/jena-app/src/NTNames.owl";
 	//private static String inputFileName = "/Users/jasontan/Documents/workspace/jena-app/src/peel.rdf";
-	private static String inputFileName = "/Users/jasontan/Documents/workspace/jena-app/src/NTNames.owl";
+	private static String inputFileName = "/Users/jasontan/Documents/workspace/jena-app/src/vc-db-1.rdf";
 
 	public Main() {
 		// TODO Auto-generated constructor stub
