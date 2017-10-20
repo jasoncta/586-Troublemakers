@@ -2,7 +2,9 @@ import java.io.InputStream;
 
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.util.FileManager;
+import org.apache.jena.vocabulary.VCARD;
 
 
 
@@ -26,9 +28,10 @@ public class Main {
 		web.scrape(urls);
 		
 		 // create an empty model
-		 Model model = ModelFactory.createDefaultModel();
+		 //Model model = ModelFactory.createDefaultModel();
 
 		 // use the FileManager to find the input file
+		 /*
 		 InputStream in = FileManager.get().open( inputFileName );
 		if (in == null) {
 		    throw new IllegalArgumentException(
@@ -37,9 +40,29 @@ public class Main {
 
 		// read the RDF/XML file
 		model.read(in, null);
+		*/
 
 		// write it to standard out
 		//model.write(System.out, "TURTLE");
+		 
+		// some definitions
+		 String personURI    = "http://somewhere/country";
+		 String country     = "USA";
+		 String GDP = "$100";
+
+		 // create an empty Model
+		 Model model = ModelFactory.createDefaultModel();
+
+		 // create the resource
+		 Resource countryGDP = model.createResource(personURI);
+
+		 // add the property
+		 countryGDP.addProperty(VCARD.FN, country)
+		 	.addProperty(VCARD.N,
+                 model.createResource()
+                 .addProperty(VCARD.Given, GDP));;
+		  model.write(System.out, "TURTLE");
+		
 		      
 	}
 
