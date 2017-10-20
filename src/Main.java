@@ -27,6 +27,9 @@ public class Main {
 		String[] urls = new String[] {"http://www.nationmaster.com/country-info/stats/Economy/GDP"}; 
 		web.scrape(urls);
 		
+		JavaApplication1 parser = new JavaApplication1();
+		parser.parse();
+		
 		 // create an empty model
 		 //Model model = ModelFactory.createDefaultModel();
 
