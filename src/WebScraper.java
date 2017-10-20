@@ -1,8 +1,8 @@
 import java.io.FileWriter;
 import java.io.IOException;
 
-import org.json.JSONArray;
-import org.json.JSONObject;
+import org.json.simple.JSONArray;
+import org.json.simple.JSONObject;
 import org.jsoup.Jsoup;
 import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
@@ -10,13 +10,11 @@ import org.jsoup.select.Elements;
 
 public class WebScraper {
 
-	public void scrape() {
-		String[] urls = new String[] { 
-				"http://www.nationmaster.com/country-info/stats/Economy/GDP"};
+	public void scrape(String[] urls) {
 		try {
-			JSONObject json = new JSONObject();
 			int k = 0;
 			for (String url : urls) {
+				JSONObject json = new JSONObject();
 				Document doc = Jsoup.connect(url).get();
 				String title = doc.title();
 				Element table = doc.select("tbody").get(0);
@@ -32,12 +30,12 @@ public class WebScraper {
 					item.put("country", country);
 					item.put("amount", amount);
 					item.put("date", date);
-					array.put(item);
+					array.add(item);
 				}
 				json.put(title, array);
 				try {
 					FileWriter fileWriter = new FileWriter("data" + k + ".json");
-					fileWriter.write(json.toString());
+					fileWriter.write(json.toJSONString());
 					fileWriter.flush();
 					fileWriter.close();
 				} catch (Exception e) {

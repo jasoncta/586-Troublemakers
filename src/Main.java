@@ -22,7 +22,8 @@ public class Main {
 		// TODO Auto-generated method stub
 
 		WebScraper web = new WebScraper();
-		web.scrape();
+		String[] urls = new String[] {"http://www.nationmaster.com/country-info/stats/Economy/GDP"}; 
+		web.scrape(urls);
 		
 		 // create an empty model
 		 Model model = ModelFactory.createDefaultModel();
