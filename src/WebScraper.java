@@ -8,9 +8,9 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 
-public class Main {
+public class WebScraper {
 
-	public static void main(String[] args) {
+	public void scrape() {
 		String[] urls = new String[] { 
 				"http://www.nationmaster.com/country-info/stats/Economy/GDP"};
 		try {

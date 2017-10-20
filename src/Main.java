@@ -12,6 +12,7 @@ public class Main {
 	private static String inputFileName = "/Users/jasontan/Documents/workspace/jena-app/src/NTNames.owl";
 	//private static String inputFileName = "/Users/jasontan/Documents/workspace/jena-app/src/peel.rdf";
 	//private static String inputFileName = "/Users/jasontan/Documents/workspace/jena-app/src/vc-db-1.rdf";
+	//private static String inputFileName = "/Users/jasontan/Documents/workspace/jena-app/src/API_NY.GDP.MKTP.CD_DS2_en_csv_v2.csv";
 
 	public Main() {
 		// TODO Auto-generated constructor stub
@@ -20,6 +21,8 @@ public class Main {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
+		WebScraper web = new WebScraper();
+		web.scrape();
 		
 		 // create an empty model
 		 Model model = ModelFactory.createDefaultModel();
@@ -35,7 +38,7 @@ public class Main {
 		model.read(in, null);
 
 		// write it to standard out
-		model.write(System.out, "TURTLE");
+		//model.write(System.out, "TURTLE");
 		      
 	}
 
