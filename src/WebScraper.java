@@ -32,7 +32,7 @@ public class WebScraper {
 					item.put("date", date);
 					array.add(item);
 				}
-				json.put(title, array);
+				json.put("data", array);
 				try {
 					FileWriter fileWriter = new FileWriter("data" + k + ".json");
 					fileWriter.write(json.toJSONString());
@@ -47,5 +47,4 @@ public class WebScraper {
 			e.printStackTrace();
 		}
 	}
-
 }
