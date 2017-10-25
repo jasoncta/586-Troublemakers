@@ -10,6 +10,10 @@ import org.json.simple.parser.JSONParser;
 import org.json.simple.parser.ParseException;
 
 public class JavaApplication1 {
+	
+	public JavaApplication1() {
+		
+	}
     public void parse() {
 
         JSONParser parser = new JSONParser();
@@ -18,9 +22,20 @@ public class JavaApplication1 {
             Object obj = parser.parse(new FileReader("/Users/jasontan/Documents/workspace/jena-app/data0.json"));
 
             JSONObject jsonObject =  (JSONObject) obj;
-            System.out.println(jsonObject.toJSONString());
+            System.out.println("test: " + jsonObject.toJSONString());
+            System.out.println("get: " + jsonObject.get("data"));
+            JSONArray a = (JSONArray) jsonObject.get("data");
+            System.out.println(a);
+            //JSONObject b = (JSONObject) a.get(0);
+            //System.out.println(b.get("country"));
+            //System.out.print(jsonObject.get("data"));
+            for (int i = 0; i < a.size(); i++) {
+            	JSONObject b = (JSONObject) a.get(i);
+                System.out.println(b.get("country") + " : " + b.get("amount"));
+            	
+            }
             
-            JSONArray arr = jsonObject.getJSONArray("data");
+            //JSONArray arr = jsonObject.getJSONArray("data");
             //JSONArray arr = new JSONArray();
             //arr.add(jsonObject.get("data"));
 
@@ -34,6 +49,8 @@ public class JavaApplication1 {
            
             String amount = (String) jsonObject.get("amount");
             System.out.println(amount);
+            
+            
 
 
             // loop array
