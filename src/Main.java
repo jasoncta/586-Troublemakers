@@ -6,6 +6,7 @@ import java.io.InputStream;
 
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
+import org.apache.jena.rdf.model.Property;
 import org.apache.jena.rdf.model.Resource;
 import org.apache.jena.util.FileManager;
 import org.apache.jena.vocabulary.VCARD;
@@ -47,6 +48,7 @@ public class Main {
 		Resource countryGDP = model.createResource(countryURI);
 
 		// add the property
+		Resource HAS = model.createProperty("Has");
 
 		/*
 		countryGDP.addProperty(VCARD.FN, country)
@@ -76,10 +78,11 @@ public class Main {
 						System.out.println(b.get("country") + " : " + b.get("amount"));
 						
 						// add the property
+					
 
 						countryGDP.addProperty(VCARD.N, 
-								model.createResource().addProperty(VCARD.FN, b.get("country").toString())
-								.addProperty(VCARD.Given, b.get("amount").toString()));;
+								model.createResource().addProperty((Property) HAS, b.get("country").toString())
+								.addProperty((Property) HAS, b.get("amount").toString()));;
 								
 
 					}
