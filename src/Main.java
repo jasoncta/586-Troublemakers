@@ -29,6 +29,10 @@ public class Main {
 	public Main() {
 		// TODO Auto-generated constructor stub
 	}
+	
+	public void convertToRDF(Model model, String fileName) {
+		
+	}
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
@@ -65,10 +69,10 @@ public class Main {
 		Model model = ModelFactory.createDefaultModel();
 
 		// create the resource
-		Resource countryGDP = model.createResource(countryURI);
+		//Resource countryGDP = model.createResource(countryURI);
 
 		// add the property
-		Resource HAS = model.createProperty("Has");
+		Resource HAS = model.createProperty("https://www.usc.edu/Has");
 
 		/*
 		countryGDP.addProperty(VCARD.FN, country)
@@ -83,7 +87,7 @@ public class Main {
 				JSONParser parser = new JSONParser();
 
 				try {     
-					Object obj = parser.parse(new FileReader("data0.json"));
+					Object obj = parser.parse(new FileReader("Birth Rate.json"));
 
 					JSONObject jsonObject =  (JSONObject) obj;
 					System.out.println("test: " + jsonObject.toJSONString());
@@ -98,11 +102,34 @@ public class Main {
 						System.out.println(b.get("country") + " : " + b.get("amount"));
 						
 						// add the property
+						/*
+						Resource countryGDP = model.createResource(b.get("country").toString());
 					
 
-						countryGDP.addProperty(VCARD.N, 
+						
 								model.createResource().addProperty((Property) HAS, b.get("country").toString())
-								.addProperty((Property) HAS, b.get("amount").toString()));;
+								.addProperty((Property) HAS, b.get("amount").toString());
+								*/
+						
+						// some definitions
+						String personURI    = "http://somewhere/JohnSmith";
+						String givenName    = "John";
+						String familyName   = "Smith";
+						String fullName     = givenName + " " + familyName;
+
+						// create an empty Model
+						//Model model = ModelFactory.createDefaultModel();
+
+						// create the resource
+						//   and add the properties cascading style
+						String st = b.get("country").toString();
+						st = st.replaceAll("\\s+","");
+						st = "https://www.usc.edu/" + st;
+						System.out.println(st);
+						Resource johnSmith
+						  = model.createResource(st)
+						         .addProperty((Property)HAS, b.get("amount").toString());
+						         
 								
 
 					}
