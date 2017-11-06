@@ -3,6 +3,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.HashMap;
 
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.ModelFactory;
@@ -33,7 +34,26 @@ public class Main {
 		// TODO Auto-generated method stub
 
 		WebScraper web = new WebScraper();
-		String[] urls = new String[] {"http://www.nationmaster.com/country-info/stats/Economy/GDP"}; 
+		HashMap<String, String> urls = new HashMap<String, String>() {{
+			put("GDP","http://www.nationmaster.com/country-info/stats/Economy/GDP");
+			put("Population", "http://www.nationmaster.com/country-info/stats/People/Population");
+			put("Military Budget", "http://www.nationmaster.com/country-info/stats/Military/Budget");
+			put("Electricity Consumption", "http://www.nationmaster.com/country-info/stats/Energy/Electricity/Consumption");;
+			put("Gasoline Prices", "http://www.nationmaster.com/country-info/stats/Energy/Gasoline-prices");
+			put("Oil Consumption", "http://www.nationmaster.com/country-info/stats/Energy/Oil/Consumption");
+			put("Terrorism", "http://www.nationmaster.com/country-info/stats/Conflict/Terrorism/Global-Terrorism-Index");
+			put("Life Expectancy", "http://www.nationmaster.com/country-info/stats/Health/Life-expectancy-at-birth%2C-total/Years");
+			put("Hospital Beds", "http://www.nationmaster.com/country-info/stats/Health/Hospital-beds/Per-1%2C000-people");
+			put("Birth Rate", "http://www.nationmaster.com/country-info/stats/People/Birth-rate");
+			put("Unemployment Rate", "http://www.nationmaster.com/country-info/stats/Labor/Unemployment-rate");
+			put("Employment Rate", "http://www.nationmaster.com/country-info/stats/Labor/Employment-rate/Adults");
+			put("Labor Force", "http://www.nationmaster.com/country-info/stats/Labor/Force/Total/Per-capita");
+			put("Male Retirement", "http://www.nationmaster.com/country-info/stats/Labor/Male-retirement-age");
+			put("Female Retirement", "http://www.nationmaster.com/country-info/stats/Labor/Female-retirement-age");
+			put("Standard Work Week", "http://www.nationmaster.com/country-info/stats/Labor/Hours-worked/Standard-workweek");
+			put("Average Monthly Disposable Salary", "http://www.nationmaster.com/country-info/stats/Cost-of-living/Average-monthly-disposable-salary/After-tax");
+			put("Real Estate Prices", "http://www.nationmaster.com/country-info/stats/Cost-of-living/Real-estate-prices/Rent-per-month/3-bedroom-apartment/City-centre");
+		}}; 
 		web.scrape(urls);
 
 		//JavaApplication1 parser = new JavaApplication1();

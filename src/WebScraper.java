@@ -1,5 +1,7 @@
 import java.io.FileWriter;
 import java.io.IOException;
+import java.util.HashMap;
+import java.util.Map;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
@@ -10,12 +12,12 @@ import org.jsoup.select.Elements;
 
 public class WebScraper {
 
-	public void scrape(String[] urls) {
+	public void scrape(HashMap<String, String> urls) {
 		try {
 			int k = 0;
-			for (String url : urls) {
+			for (Map.Entry<String, String> url : urls.entrySet()) {
 				JSONObject json = new JSONObject();
-				Document doc = Jsoup.connect(url).get();
+				Document doc = Jsoup.connect(url.getValue()).get();
 				String title = doc.title();
 				Element table = doc.select("tbody").get(0);
 				Elements rows = table.select("tr");
@@ -34,14 +36,14 @@ public class WebScraper {
 				}
 				json.put("data", array);
 				try {
-					FileWriter fileWriter = new FileWriter("data" + k + ".json");
+					FileWriter fileWriter = new FileWriter(url.getKey() + ".json");
 					fileWriter.write(json.toJSONString());
 					fileWriter.flush();
 					fileWriter.close();
 				} catch (Exception e) {
 					e.printStackTrace();
 				}
-				System.out.println(json.toString());
+				k += 1;
 			}
 		} catch (IOException e) {
 			e.printStackTrace();
