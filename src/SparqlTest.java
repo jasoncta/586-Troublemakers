@@ -30,7 +30,7 @@ public class SparqlTest {
 		String queryString = //"SELECT ?x WHERE { ?x  <http://www.w3.org/2001/vcard-rdf/3.0#Family>  \"Smith\"}";
 				//"SELECT ?titles WHERE {<http://example.org/book/book2> ?titles \"SPARQL Tutorial2\" .}";
 				//"SELECT ?x ?titles WHERE {<http://example.org/book/book2> ?x ?titles .}";
-				"SELECT ?titles WHERE {<https://www.usc.edu/Paraguay> ?x ?titles .}";
+				"SELECT ?titles WHERE {<https://www.usc.edu/France> ?x ?titles .}";
 		
 		//"SELECT ?titles WHERE { ?y  <http://www.w3.org/2001/vcard-rdf/3.0#N>  <Has> . ?y  <http://www.w3.org/2001/vcard-rdf/3.0#N>  ?titles .}";
 				

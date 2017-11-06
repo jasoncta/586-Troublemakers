@@ -30,8 +30,75 @@ public class Main {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public void convertToRDF(Model model, String fileName) {
-		
+	public static void convertToRDF(Model model, Resource hasType,String fileName) {
+
+		JSONParser parser = new JSONParser();
+		// add the property
+		//Resource HAS = model.createProperty("https://www.usc.edu/Has");
+
+		try {     
+			Object obj = parser.parse(new FileReader(fileName));
+
+			JSONObject jsonObject =  (JSONObject) obj;
+			System.out.println("test: " + jsonObject.toJSONString());
+			System.out.println("get: " + jsonObject.get("data"));
+			JSONArray a = (JSONArray) jsonObject.get("data");
+			System.out.println(a);
+			//JSONObject b = (JSONObject) a.get(0);
+			//System.out.println(b.get("country"));
+			//System.out.print(jsonObject.get("data"));
+			for (int i = 0; i < a.size(); i++) {
+				JSONObject b = (JSONObject) a.get(i);
+				System.out.println(b.get("country") + " : " + b.get("amount"));
+				
+				// add the property
+				/*
+				Resource countryGDP = model.createResource(b.get("country").toString());
+			
+
+				
+						model.createResource().addProperty((Property) HAS, b.get("country").toString())
+						.addProperty((Property) HAS, b.get("amount").toString());
+						*/
+				
+				// some definitions
+				String personURI    = "http://somewhere/JohnSmith";
+				String givenName    = "John";
+				String familyName   = "Smith";
+				String fullName     = givenName + " " + familyName;
+
+				// create an empty Model
+				//Model model = ModelFactory.createDefaultModel();
+
+				// create the resource
+				//   and add the properties cascading style
+				String st = b.get("country").toString();
+				st = st.replaceAll("\\s+","");
+				st = "https://www.usc.edu/" + st;
+				System.out.println(st);
+				Resource johnSmith
+				  = model.createResource(st)
+				         .addProperty((Property)hasType, b.get("amount").toString());
+				         
+						
+
+			}
+
+
+			//String amount = (String) jsonObject.get("amount");
+			//System.out.println(amount);
+
+
+
+
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
 	}
 
 	public static void main(String[] args) throws IOException {
@@ -67,129 +134,63 @@ public class Main {
 
 		// create an empty Model
 		Model model = ModelFactory.createDefaultModel();
+		
+		Resource hasBirthRate = model.createProperty("https://www.usc.edu/hasBirthRate");
+		convertToRDF(model, hasBirthRate, "Birth Rate.json");
+		
+		Resource hasGDP = model.createProperty("https://www.usc.edu/hasGDP");
+		convertToRDF(model, hasGDP, "GDP.json");
+		
+		Resource hasAverageMonthlyDisposableSalary = model.createProperty("https://www.usc.edu/hasAverageMonthlyDisposableSalary");
+		convertToRDF(model, hasAverageMonthlyDisposableSalary, "Average Monthly Disposable Salary.json");
+		
+		Resource hasElectricityConsumption = model.createProperty("https://www.usc.edu/hasElectricityConsumption");
+		convertToRDF(model, hasElectricityConsumption, "Electricity Consumption.json");
+		
+		Resource hasEmploymentRate = model.createProperty("https://www.usc.edu/hasEmploymentRate");
+		convertToRDF(model, hasEmploymentRate, "Employment Rate.json");
+		
+		Resource hasFemaleRetirement = model.createProperty("https://www.usc.edu/hasFemaleRetirement");
+		convertToRDF(model, hasFemaleRetirement, "Female Retirement.json");
+		
+		Resource hasGasolinePrices = model.createProperty("https://www.usc.edu/hasGasolinePrices");
+		convertToRDF(model, hasGasolinePrices, "Gasoline Prices.json");
+		
+		Resource hasHospitalBeds = model.createProperty("https://www.usc.edu/hasHospitalBeds");
+		convertToRDF(model, hasHospitalBeds, "Hospital Beds.json");
+		
+		Resource hasLaborForce = model.createProperty("https://www.usc.edu/hasLaborForce");
+		convertToRDF(model, hasLaborForce, "Labor Force.json");
+		
+		Resource hasLifeExpectancy = model.createProperty("https://www.usc.edu/hasLifeExpectancy");
+		convertToRDF(model, hasLifeExpectancy, "Life Expectancy.json");
+		
+		Resource hasMaleRetirement = model.createProperty("https://www.usc.edu/hasMaleRetirement");
+		convertToRDF(model, hasMaleRetirement, "Male Retirement.json");
+		
+		Resource hasMilitaryBudget = model.createProperty("https://www.usc.edu/hasMilitaryBudget");
+		convertToRDF(model, hasMilitaryBudget, "Military Budget.json");
+		
+		Resource hasOilConsumption = model.createProperty("https://www.usc.edu/hasOilConsumption");
+		convertToRDF(model, hasOilConsumption, "Oil Consumption.json");
+		
+		Resource hasPopulation = model.createProperty("https://www.usc.edu/hasPopulation");
+		convertToRDF(model, hasPopulation, "Population.json");
+		
+		Resource hasRealEstatePrices = model.createProperty("https://www.usc.edu/hasRealEstatePrices");
+		convertToRDF(model, hasRealEstatePrices, "Real Estate Prices.json");
+		
+		Resource hasStandardWorkWeek = model.createProperty("https://www.usc.edu/hasStandardWorkWeek");
+		convertToRDF(model, hasStandardWorkWeek, "Standard Work Week.json");
+		
+		Resource hasTerrorism = model.createProperty("https://www.usc.edu/hasTerrorism");
+		convertToRDF(model, hasTerrorism, "Terrorism.json");
+		
+		Resource hasUnemploymentRate = model.createProperty("https://www.usc.edu/hasUnemploymentRate");
+		convertToRDF(model, hasUnemploymentRate, "Unemployment Rate.json");
+		
+		
 
-		// create the resource
-		//Resource countryGDP = model.createResource(countryURI);
-
-		// add the property
-		Resource HAS = model.createProperty("https://www.usc.edu/Has");
-
-		/*
-		countryGDP.addProperty(VCARD.FN, country)
-		.addProperty(VCARD.N,
-				model.createResource()
-				.addProperty(VCARD.Given, GDP));;
-				model.write(System.out, "TURTLE");
-				*/
-
-
-
-				JSONParser parser = new JSONParser();
-
-				try {     
-					Object obj = parser.parse(new FileReader("Birth Rate.json"));
-
-					JSONObject jsonObject =  (JSONObject) obj;
-					System.out.println("test: " + jsonObject.toJSONString());
-					System.out.println("get: " + jsonObject.get("data"));
-					JSONArray a = (JSONArray) jsonObject.get("data");
-					System.out.println(a);
-					//JSONObject b = (JSONObject) a.get(0);
-					//System.out.println(b.get("country"));
-					//System.out.print(jsonObject.get("data"));
-					for (int i = 0; i < a.size(); i++) {
-						JSONObject b = (JSONObject) a.get(i);
-						System.out.println(b.get("country") + " : " + b.get("amount"));
-						
-						// add the property
-						/*
-						Resource countryGDP = model.createResource(b.get("country").toString());
-					
-
-						
-								model.createResource().addProperty((Property) HAS, b.get("country").toString())
-								.addProperty((Property) HAS, b.get("amount").toString());
-								*/
-						
-						// some definitions
-						String personURI    = "http://somewhere/JohnSmith";
-						String givenName    = "John";
-						String familyName   = "Smith";
-						String fullName     = givenName + " " + familyName;
-
-						// create an empty Model
-						//Model model = ModelFactory.createDefaultModel();
-
-						// create the resource
-						//   and add the properties cascading style
-						String st = b.get("country").toString();
-						st = st.replaceAll("\\s+","");
-						st = "https://www.usc.edu/" + st;
-						System.out.println(st);
-						Resource johnSmith
-						  = model.createResource(st)
-						         .addProperty((Property)HAS, b.get("amount").toString());
-						         
-								
-
-					}
-
-
-					//String amount = (String) jsonObject.get("amount");
-					//System.out.println(amount);
-
-
-
-
-
-				} catch (FileNotFoundException e) {
-					e.printStackTrace();
-				} catch (IOException e) {
-					e.printStackTrace();
-				} catch (ParseException e) {
-					e.printStackTrace();
-				}
-
-
-				// create an empty model
-				//Model model = ModelFactory.createDefaultModel();
-
-				// use the FileManager to find the input file
-				/*
-		 InputStream in = FileManager.get().open( inputFileName );
-		if (in == null) {
-		    throw new IllegalArgumentException(
-		                                 "File: " + inputFileName + " not found");
-		}
-
-		// read the RDF/XML file
-		model.read(in, null);
-				 */
-
-				// write it to standard out
-				//model.write(System.out, "TURTLE");
-				/*
-	// some definitions
-	String personURI    = "data";
-	String country     = "USA";
-	String GDP = "$100";
-
-	// create an empty Model
-	Model model = ModelFactory.createDefaultModel();
-
-	// create the resource
-	Resource countryGDP = model.createResource(personURI);
-
-	// add the property
-
-	countryGDP.addProperty(VCARD.FN, country)
-	.addProperty(VCARD.N,
-			model.createResource()
-			.addProperty(VCARD.Given, GDP));;
-			model.write(System.out, "TURTLE");
-
-				 */
-				
 				model.write(System.out, "TURTLE");
 				 // Write as Turtle via model.write
 			    model.write(System.out, "TTL") ;
