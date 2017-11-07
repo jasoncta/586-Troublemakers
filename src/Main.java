@@ -74,7 +74,7 @@ public class Main {
 				//   and add the properties cascading style
 				String st = b.get("country").toString();
 				st = st.replaceAll("\\s+","");
-				st = "https://www.usc.edu/" + st;
+				st = "https://www.wikipedia.org/" + st;
 				System.out.println(st);
 				Resource johnSmith
 				  = model.createResource(st)
@@ -103,27 +103,48 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
+		
+		String GDP_URL = "http://www.nationmaster.com/country-info/stats/Economy/GDP";
+		String Population_URL = "http://www.nationmaster.com/country-info/stats/People/Population";
+		String MilitaryBudget_URL = "http://www.nationmaster.com/country-info/stats/Military/Budget";
+		String ElectricityConsumption_URL = "http://www.nationmaster.com/country-info/stats/Energy/Electricity/Consumption";
+		String GasolinePrices_URL = "http://www.nationmaster.com/country-info/stats/Energy/Gasoline-prices";
+		String OilConsumption_URL = "http://www.nationmaster.com/country-info/stats/Energy/Oil/Consumption";
+		String Terrorism_URL = "http://www.nationmaster.com/country-info/stats/Conflict/Terrorism/Global-Terrorism-Index";
+		String LifeExpectancy_URL = "http://www.nationmaster.com/country-info/stats/Health/Life-expectancy-at-birth%2C-total/Years";
+		String HospitalBeds_URL = "http://www.nationmaster.com/country-info/stats/Health/Hospital-beds/Per-1%2C000-people";
+		String BirthRate_URL = "http://www.nationmaster.com/country-info/stats/People/Birth-rate";
+		String UnemploymentRate_URL = "http://www.nationmaster.com/country-info/stats/Labor/Unemployment-rate";
+		String EmploymentRate_URL = "http://www.nationmaster.com/country-info/stats/Labor/Employment-rate/Adults";
+		String LaborForce_URL = "http://www.nationmaster.com/country-info/stats/Labor/Force/Total/Per-capita";
+		String MaleRetirement_URL = "http://www.nationmaster.com/country-info/stats/Labor/Male-retirement-age";
+		String FemaleRetirement_URL = "http://www.nationmaster.com/country-info/stats/Labor/Female-retirement-age";
+		String StandardWorkWeek_URL = "http://www.nationmaster.com/country-info/stats/Labor/Hours-worked/Standard-workweek";
+		String AverageMonthlyDisposableSalary_URL = "http://www.nationmaster.com/country-info/stats/Cost-of-living/Average-monthly-disposable-salary/After-tax";
+		String RealEstatePrices_URL = "http://www.nationmaster.com/country-info/stats/Cost-of-living/Real-estate-prices/Rent-per-month/3-bedroom-apartment/City-centre";
+		
+		
 
 		WebScraper web = new WebScraper();
 		HashMap<String, String> urls = new HashMap<String, String>() {{
-			put("GDP","http://www.nationmaster.com/country-info/stats/Economy/GDP");
-			put("Population", "http://www.nationmaster.com/country-info/stats/People/Population");
-			put("Military Budget", "http://www.nationmaster.com/country-info/stats/Military/Budget");
-			put("Electricity Consumption", "http://www.nationmaster.com/country-info/stats/Energy/Electricity/Consumption");;
-			put("Gasoline Prices", "http://www.nationmaster.com/country-info/stats/Energy/Gasoline-prices");
-			put("Oil Consumption", "http://www.nationmaster.com/country-info/stats/Energy/Oil/Consumption");
-			put("Terrorism", "http://www.nationmaster.com/country-info/stats/Conflict/Terrorism/Global-Terrorism-Index");
-			put("Life Expectancy", "http://www.nationmaster.com/country-info/stats/Health/Life-expectancy-at-birth%2C-total/Years");
-			put("Hospital Beds", "http://www.nationmaster.com/country-info/stats/Health/Hospital-beds/Per-1%2C000-people");
-			put("Birth Rate", "http://www.nationmaster.com/country-info/stats/People/Birth-rate");
-			put("Unemployment Rate", "http://www.nationmaster.com/country-info/stats/Labor/Unemployment-rate");
-			put("Employment Rate", "http://www.nationmaster.com/country-info/stats/Labor/Employment-rate/Adults");
-			put("Labor Force", "http://www.nationmaster.com/country-info/stats/Labor/Force/Total/Per-capita");
-			put("Male Retirement", "http://www.nationmaster.com/country-info/stats/Labor/Male-retirement-age");
-			put("Female Retirement", "http://www.nationmaster.com/country-info/stats/Labor/Female-retirement-age");
-			put("Standard Work Week", "http://www.nationmaster.com/country-info/stats/Labor/Hours-worked/Standard-workweek");
-			put("Average Monthly Disposable Salary", "http://www.nationmaster.com/country-info/stats/Cost-of-living/Average-monthly-disposable-salary/After-tax");
-			put("Real Estate Prices", "http://www.nationmaster.com/country-info/stats/Cost-of-living/Real-estate-prices/Rent-per-month/3-bedroom-apartment/City-centre");
+			put("GDP",GDP_URL);
+			put("Population", Population_URL);
+			put("Military Budget", MilitaryBudget_URL);
+			put("Electricity Consumption", ElectricityConsumption_URL);
+			put("Gasoline Prices", GasolinePrices_URL);
+			put("Oil Consumption", OilConsumption_URL);
+			put("Terrorism", Terrorism_URL);
+			put("Life Expectancy", LifeExpectancy_URL);
+			put("Hospital Beds", HospitalBeds_URL);
+			put("Birth Rate", BirthRate_URL);
+			put("Unemployment Rate", UnemploymentRate_URL);
+			put("Employment Rate", EmploymentRate_URL);
+			put("Labor Force", LaborForce_URL);
+			put("Male Retirement", MaleRetirement_URL);
+			put("Female Retirement", FemaleRetirement_URL);
+			put("Standard Work Week", StandardWorkWeek_URL);
+			put("Average Monthly Disposable Salary", AverageMonthlyDisposableSalary_URL);
+			put("Real Estate Prices", RealEstatePrices_URL);
 		}}; 
 		web.scrape(urls);
 
@@ -135,58 +156,58 @@ public class Main {
 		// create an empty Model
 		Model model = ModelFactory.createDefaultModel();
 		
-		Resource hasBirthRate = model.createProperty("https://www.usc.edu/hasBirthRate");
+		Resource hasBirthRate = model.createProperty(BirthRate_URL);
 		convertToRDF(model, hasBirthRate, "Birth Rate.json");
 		
-		Resource hasGDP = model.createProperty("https://www.usc.edu/hasGDP");
+		Resource hasGDP = model.createProperty(GDP_URL);
 		convertToRDF(model, hasGDP, "GDP.json");
 		
-		Resource hasAverageMonthlyDisposableSalary = model.createProperty("https://www.usc.edu/hasAverageMonthlyDisposableSalary");
+		Resource hasAverageMonthlyDisposableSalary = model.createProperty(AverageMonthlyDisposableSalary_URL);
 		convertToRDF(model, hasAverageMonthlyDisposableSalary, "Average Monthly Disposable Salary.json");
 		
-		Resource hasElectricityConsumption = model.createProperty("https://www.usc.edu/hasElectricityConsumption");
+		Resource hasElectricityConsumption = model.createProperty(ElectricityConsumption_URL);
 		convertToRDF(model, hasElectricityConsumption, "Electricity Consumption.json");
 		
-		Resource hasEmploymentRate = model.createProperty("https://www.usc.edu/hasEmploymentRate");
+		Resource hasEmploymentRate = model.createProperty(EmploymentRate_URL);
 		convertToRDF(model, hasEmploymentRate, "Employment Rate.json");
 		
-		Resource hasFemaleRetirement = model.createProperty("https://www.usc.edu/hasFemaleRetirement");
+		Resource hasFemaleRetirement = model.createProperty(FemaleRetirement_URL);
 		convertToRDF(model, hasFemaleRetirement, "Female Retirement.json");
 		
-		Resource hasGasolinePrices = model.createProperty("https://www.usc.edu/hasGasolinePrices");
+		Resource hasGasolinePrices = model.createProperty(GasolinePrices_URL);
 		convertToRDF(model, hasGasolinePrices, "Gasoline Prices.json");
 		
-		Resource hasHospitalBeds = model.createProperty("https://www.usc.edu/hasHospitalBeds");
+		Resource hasHospitalBeds = model.createProperty("HospitalBeds_URL");
 		convertToRDF(model, hasHospitalBeds, "Hospital Beds.json");
 		
-		Resource hasLaborForce = model.createProperty("https://www.usc.edu/hasLaborForce");
+		Resource hasLaborForce = model.createProperty(LaborForce_URL);
 		convertToRDF(model, hasLaborForce, "Labor Force.json");
 		
-		Resource hasLifeExpectancy = model.createProperty("https://www.usc.edu/hasLifeExpectancy");
+		Resource hasLifeExpectancy = model.createProperty(LifeExpectancy_URL);
 		convertToRDF(model, hasLifeExpectancy, "Life Expectancy.json");
 		
-		Resource hasMaleRetirement = model.createProperty("https://www.usc.edu/hasMaleRetirement");
+		Resource hasMaleRetirement = model.createProperty(MaleRetirement_URL);
 		convertToRDF(model, hasMaleRetirement, "Male Retirement.json");
 		
-		Resource hasMilitaryBudget = model.createProperty("https://www.usc.edu/hasMilitaryBudget");
+		Resource hasMilitaryBudget = model.createProperty(MilitaryBudget_URL);
 		convertToRDF(model, hasMilitaryBudget, "Military Budget.json");
 		
-		Resource hasOilConsumption = model.createProperty("https://www.usc.edu/hasOilConsumption");
+		Resource hasOilConsumption = model.createProperty(OilConsumption_URL);
 		convertToRDF(model, hasOilConsumption, "Oil Consumption.json");
 		
-		Resource hasPopulation = model.createProperty("https://www.usc.edu/hasPopulation");
+		Resource hasPopulation = model.createProperty(Population_URL);
 		convertToRDF(model, hasPopulation, "Population.json");
 		
-		Resource hasRealEstatePrices = model.createProperty("https://www.usc.edu/hasRealEstatePrices");
+		Resource hasRealEstatePrices = model.createProperty(RealEstatePrices_URL);
 		convertToRDF(model, hasRealEstatePrices, "Real Estate Prices.json");
 		
-		Resource hasStandardWorkWeek = model.createProperty("https://www.usc.edu/hasStandardWorkWeek");
+		Resource hasStandardWorkWeek = model.createProperty(StandardWorkWeek_URL);
 		convertToRDF(model, hasStandardWorkWeek, "Standard Work Week.json");
 		
-		Resource hasTerrorism = model.createProperty("https://www.usc.edu/hasTerrorism");
+		Resource hasTerrorism = model.createProperty(Terrorism_URL);
 		convertToRDF(model, hasTerrorism, "Terrorism.json");
 		
-		Resource hasUnemploymentRate = model.createProperty("https://www.usc.edu/hasUnemploymentRate");
+		Resource hasUnemploymentRate = model.createProperty(UnemploymentRate_URL);
 		convertToRDF(model, hasUnemploymentRate, "Unemployment Rate.json");
 		
 		
