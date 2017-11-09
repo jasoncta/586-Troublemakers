@@ -5,6 +5,7 @@ import org.apache.jena.query.QueryExecution;
 import org.apache.jena.query.QueryExecutionFactory;
 import org.apache.jena.query.QueryFactory;
 import org.apache.jena.query.QuerySolution;
+import org.apache.jena.query.ResultSetFormatter;
 import org.apache.jena.rdf.model.Literal;
 import org.apache.jena.rdf.model.Model;
 import org.apache.jena.rdf.model.RDFNode;
@@ -17,6 +18,7 @@ public class SparqlTest {
 	//private static String inputFileName = "/Users/jasontan/Documents/workspace/jena-app/src/vc-db-1.rdf";
 	//private static String inputFileName = "/Users/jasontan/Desktop/example.ttl";
 	private static String inputFileName = "data.ttl";
+	//private static String inputFileName = "vc-db-2.rdf";
 
 
 	public static void main(String[] args) {
@@ -30,7 +32,40 @@ public class SparqlTest {
 		String queryString = //"SELECT ?x WHERE { ?x  <http://www.w3.org/2001/vcard-rdf/3.0#Family>  \"Smith\"}";
 				//"SELECT ?titles WHERE {<http://example.org/book/book2> ?titles \"SPARQL Tutorial2\" .}";
 				//"SELECT ?x ?titles WHERE {<http://example.org/book/book2> ?x ?titles .}";
-				"SELECT ?titles WHERE {<https://www.wikipedia.org/France> <http://www.nationmaster.com/country-info/stats/Economy/GDP> ?titles .}";
+				"SELECT * WHERE {?x <http://www.nationmaster.com/country-info/stats/Economy/GDP> ?titles .}";
+				
+				/*
+				"PREFIX vcard: <http://www.w3.org/2001/vcard-rdf/3.0#> " +
+
+					"SELECT ?g " +
+					"WHERE " +
+					"{ ?y vcard:Given ?g . " +
+					  "FILTER regex(?g, \"r\", \"i\") }";
+				*/
+				/*
+				"PREFIX info: <http://somewhere/peopleInfo#> " +
+
+					"SELECT ?g " +
+					"WHERE " +
+					  "{ " +
+					    "?g info:age ?age . " +
+					    "FILTER (?age >= 24) " +
+					  "}";
+					  */
+				
+				
+				/*
+				"PREFIX info:    <http://somewhere/peopleInfo#> " +
+					"PREFIX vcard:   <http://www.w3.org/2001/vcard-rdf/3.0#> " +
+
+					"SELECT * " +
+					"WHERE " +
+					"{ " +
+					    "?person vcard:FN  ?name . " +
+					    " ?person info:age ?age . " +
+					"}";
+					*/
+
 		
 		//"SELECT ?titles WHERE { ?y  <http://www.w3.org/2001/vcard-rdf/3.0#N>  <Has> . ?y  <http://www.w3.org/2001/vcard-rdf/3.0#N>  ?titles .}";
 				
@@ -56,12 +91,16 @@ public class SparqlTest {
 		
 		try {
 			org.apache.jena.query.ResultSet results = qexec.execSelect();
+			ResultSetFormatter.out(System.out, results, query);
 			while ( results.hasNext() ){
 				QuerySolution solution = results.nextSolution();
 				//Literal name = solution.getLiteral("x");
-				RDFNode name = solution.get("titles");
+				//RDFNode name = solution.get("g");
+				RDFNode name2 = solution.get("age");
+				RDFNode name = solution.get("g");
 				String a = name.toString();
-				System.out.println(a);
+				//String b = name2.toString();
+				System.out.println(a + " ");
 			}
 		} finally {
 			qexec.close();

@@ -42,7 +42,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "17.1 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "566,846" .
+                "566,846" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Suriname" .
 
 <https://www.wikipedia.org/Bulgaria>
         <HospitalBeds_URL>  "6.3 per 1,000 people" ;
@@ -79,7 +81,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "9.07 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "6.98 million" .
+                "6.98 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Bulgaria" .
 
 <https://www.wikipedia.org/SaudiArabia>
         <HospitalBeds_URL>  "2.2 per 1,000 people" ;
@@ -112,7 +116,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "19.01 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "26.94 million" .
+                "26.94 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/SaudiArabia" .
 
 <https://www.wikipedia.org/Ecuador>
         <HospitalBeds_URL>  "1.5 per 1,000 people" ;
@@ -145,7 +151,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "19.23 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "15.44 million" .
+                "15.44 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Ecuador" .
 
 <https://www.wikipedia.org/Nauru>
         <http://www.nationmaster.com/country-info/stats/Energy/Electricity/Consumption>
@@ -178,7 +186,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10.62 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "16.66 million" .
+                "16.66 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/EasternEuropeaverage" .
 
 <https://www.wikipedia.org/Georgia>
         <HospitalBeds_URL>  "4.2 per 1,000 people" ;
@@ -213,7 +223,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10.72 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "4.56 million" .
+                "4.56 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Georgia" .
 
 <https://www.wikipedia.org/Palau>
         <HospitalBeds_URL>  "5 per 1,000 people" ;
@@ -228,7 +240,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10.9 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "21,108" .
+                "21,108" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Palau" .
 
 <https://www.wikipedia.org/FederatedStatesofMicronesia>
         <HospitalBeds_URL>  "3.1 per 1,000 people" ;
@@ -245,7 +259,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "21.44 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "106,104" .
+                "106,104" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/FederatedStatesofMicronesia" .
 
 <https://www.wikipedia.org/Bermuda>
         <HospitalBeds_URL>  "6.3 per 1,000 people" ;
@@ -266,7 +282,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "11.39 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "69,467" .
+                "69,467" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Bermuda" .
 
 <https://www.wikipedia.org/Jamaica>
         <HospitalBeds_URL>  "1.4 per 1,000 people" ;
@@ -297,7 +315,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "18.65 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "2.91 million" .
+                "2.91 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Jamaica" .
 
 <https://www.wikipedia.org/Burundi>
         <HospitalBeds_URL>  "0.66 per 1,000 people" ;
@@ -326,7 +346,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "40.04 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "10.89 million" .
+                "10.89 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Burundi" .
 
 <https://www.wikipedia.org/Sub-SaharanAfricaaverage>
         <HospitalBeds_URL>  "2.93 per 1,000 people" ;
@@ -345,7 +367,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "33.59 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "19.19 million" .
+                "19.19 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Sub-SaharanAfricaaverage" .
 
 <https://www.wikipedia.org/Martinique>
         <http://www.nationmaster.com/country-info/stats/Energy/Electricity/Consumption>
@@ -400,7 +424,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "41.45 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "10.25 million" .
+                "10.25 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Somalia" .
 
 <https://www.wikipedia.org/Belgium>
         <HospitalBeds_URL>  "6.9 per 1,000 people" ;
@@ -437,7 +463,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "10.44 million" .
+                "10.44 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Belgium" .
 
 <https://www.wikipedia.org/Fiji>
         <HospitalBeds_URL>  "2.6 per 1,000 people" ;
@@ -462,7 +490,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "20.28 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "896,758" .
+                "896,758" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Fiji" .
 
 <https://www.wikipedia.org/NewZealand>
         <HospitalBeds_URL>  "6.1 per 1,000 people" ;
@@ -499,7 +529,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "13.48 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "4.37 million" .
+                "4.37 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/NewZealand" .
 
 <https://www.wikipedia.org/Israel>
         <HospitalBeds_URL>  "6.1 per 1,000 people" ;
@@ -536,7 +568,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "18.71 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "7.71 million" .
+                "7.71 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Israel" .
 
 <https://www.wikipedia.org/PuertoRico>
         <HospitalBeds_URL>  "3.32 per 1,000 people" ;
@@ -561,7 +595,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "11.28 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "3.67 million" .
+                "3.67 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/PuertoRico" .
 
 <https://www.wikipedia.org/Cambodia>
         <HospitalBeds_URL>  "0.6 per 1,000 people" ;
@@ -594,7 +630,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "24.88 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "15.21 million" .
+                "15.21 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Cambodia" .
 
 <https://www.wikipedia.org/HongKong>
         <HospitalBeds_URL>  "4.89 per 1,000 people" ;
@@ -619,7 +657,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "7.58 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "7.18 million" .
+                "7.18 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/HongKong" .
 
 <https://www.wikipedia.org/Pakistan>
         <HospitalBeds_URL>  "0.7 per 1,000 people" ;
@@ -656,7 +696,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "23.76 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "193.24 million" .
+                "193.24 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Pakistan" .
 
 <https://www.wikipedia.org/Mozambique>
         <HospitalBeds_URL>  "0.87 per 1,000 people" ;
@@ -687,7 +729,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "39.08 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "24.1 million" .
+                "24.1 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Mozambique" .
 
 <https://www.wikipedia.org/GazaStrip>
         <http://www.nationmaster.com/country-info/stats/Energy/Electricity/Consumption>
@@ -715,7 +759,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "20.94 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "91.94 million" .
+                "91.94 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Religiouscountriesaverage" .
 
 <https://www.wikipedia.org/Guyana>
         <HospitalBeds_URL>  "2.9 per 1,000 people" ;
@@ -744,7 +790,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "16.31 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "739,903" .
+                "739,903" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Guyana" .
 
 <https://www.wikipedia.org/WesternEuropeaverage>
         <http://www.nationmaster.com/country-info/stats/Economy/GDP>
@@ -752,7 +800,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10.63 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "17.31 million" .
+                "17.31 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/WesternEuropeaverage" .
 
 <https://www.wikipedia.org/China>
         <HospitalBeds_URL>  "2.45 per 1,000 people" ;
@@ -789,7 +839,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "12.25 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "1.35 billion" .
+                "1.35 billion" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/China" .
 
 <https://www.wikipedia.org/Jersey>
         <http://www.nationmaster.com/country-info/stats/Cost-of-living/Average-monthly-disposable-salary/After-tax>
@@ -834,7 +886,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "35.64 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "13.3 million" .
+                "13.3 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Senegal" .
 
 <https://www.wikipedia.org/SouthandCentralAsiaaverage>
         <HospitalBeds_URL>  "5.5 per 1,000 people" ;
@@ -855,7 +909,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "21.77 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "132.85 million" .
+                "132.85 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/SouthandCentralAsiaaverage" .
 
 <https://www.wikipedia.org/SouthSudan>
         <http://www.nationmaster.com/country-info/stats/Economy/GDP>
@@ -867,7 +923,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "38.5 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "11.09 million" .
+                "11.09 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/SouthSudan" .
 
 <https://www.wikipedia.org/Ukraine>
         <HospitalBeds_URL>  "8.8 per 1,000 people" ;
@@ -904,7 +962,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "9.52 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "44.57 million" .
+                "44.57 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Ukraine" .
 
 <https://www.wikipedia.org/SriLanka>
         <HospitalBeds_URL>  "3.1 per 1,000 people" ;
@@ -937,7 +997,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "16.64 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "21.68 million" .
+                "21.68 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/SriLanka" .
 
 <https://www.wikipedia.org/Mongolia>
         <HospitalBeds_URL>  "11.49 per 1,000 people" ;
@@ -970,7 +1032,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "20.34 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "3.23 million" .
+                "3.23 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Mongolia" .
 
 <https://www.wikipedia.org/Chad>
         <HospitalBeds_URL>  "0.72 per 1,000 people" ;
@@ -995,7 +1059,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "37.99 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "11.19 million" .
+                "11.19 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Chad" .
 
 <https://www.wikipedia.org/Malawi>
         <HospitalBeds_URL>  "1.34 per 1,000 people" ;
@@ -1024,7 +1090,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "39.98 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "16.78 million" .
+                "16.78 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Malawi" .
 
 <https://www.wikipedia.org/SpratlyIslands>
         <http://www.nationmaster.com/country-info/stats/People/Population>
@@ -1059,7 +1127,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "21.69 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "2.13 million" .
+                "2.13 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Botswana" .
 
 <https://www.wikipedia.org/HolySee(VaticanCity)>
         <http://www.nationmaster.com/country-info/stats/People/Population>
@@ -1096,7 +1166,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "17.38 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "251.16 million" .
+                "251.16 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Indonesia" .
 
 <https://www.wikipedia.org/WakeIsland>
         <http://www.nationmaster.com/country-info/stats/People/Population>
@@ -1129,7 +1201,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "37.25 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "48.26 million" .
+                "48.26 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Tanzania" .
 
 <https://www.wikipedia.org/BurkinaFaso>
         <HospitalBeds_URL>  "1.42 per 1,000 people" ;
@@ -1156,7 +1230,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "42.81 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "17.81 million" .
+                "17.81 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/BurkinaFaso" .
 
 <https://www.wikipedia.org/Libya>
         <HospitalBeds_URL>  "3.9 per 1,000 people" ;
@@ -1189,7 +1265,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "18.74 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "6 million" .
+                "6 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Libya" .
 
 <https://www.wikipedia.org/Belarus>
         <HospitalBeds_URL>  "11.3 per 1,000 people" ;
@@ -1226,7 +1304,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10.99 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "9.63 million" .
+                "9.63 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Belarus" .
 
 <https://www.wikipedia.org/CoralSeaIslands>
         <http://www.nationmaster.com/country-info/stats/People/Population>
@@ -1267,7 +1347,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "12.11 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "142.5 million" .
+                "142.5 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Russia" .
 
 <https://www.wikipedia.org/Niue>
         <http://www.nationmaster.com/country-info/stats/Energy/Electricity/Consumption>
@@ -1310,7 +1392,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "27.51 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "31.86 million" .
+                "31.86 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Iraq" .
 
 <https://www.wikipedia.org/FormerFrenchcoloniesaverage>
         <HospitalBeds_URL>  "1.55 per 1,000 people" ;
@@ -1331,7 +1415,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "30.69 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "17.46 million" .
+                "17.46 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/FormerFrenchcoloniesaverage" .
 
 <https://www.wikipedia.org/Gibraltar>
         <http://www.nationmaster.com/country-info/stats/Cost-of-living/Average-monthly-disposable-salary/After-tax>
@@ -1367,7 +1453,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "19.21 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "72.36 million" .
+                "72.36 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/EastAsiaandPacificaverage" .
 
 <https://www.wikipedia.org/Eurozoneaverage>
         <HospitalBeds_URL>  "6.18 per 1,000 people" ;
@@ -1390,7 +1478,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10.37 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "18.67 million" .
+                "18.67 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Eurozoneaverage" .
 
 <https://www.wikipedia.org/Serbia>
         <http://www.nationmaster.com/country-info/stats/Conflict/Terrorism/Global-Terrorism-Index>
@@ -1416,7 +1506,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "9.15 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "7.24 million" .
+                "7.24 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Serbia" .
 
 <https://www.wikipedia.org/SouthKorea>
         <HospitalBeds_URL>  "7.1 per 1,000 people" ;
@@ -1447,7 +1539,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "8.33 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "48.96 million" .
+                "48.96 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/SouthKorea" .
 
 <https://www.wikipedia.org/Denmark>
         <HospitalBeds_URL>  "4 per 1,000 people" ;
@@ -1484,7 +1578,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10.2 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "5.56 million" .
+                "5.56 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Denmark" .
 
 <https://www.wikipedia.org/Angola>
         <HospitalBeds_URL>  "1.29 per 1,000 people" ;
@@ -1513,7 +1609,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "39.16 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "18.57 million" .
+                "18.57 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Angola" .
 
 <https://www.wikipedia.org/TheGambia>
         <HospitalBeds_URL>  "0.61 per 1,000 people" ;
@@ -1536,7 +1634,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "32.59 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "1.88 million" .
+                "1.88 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/TheGambia" .
 
 <https://www.wikipedia.org/Djibouti>
         <HospitalBeds_URL>  "1.6 per 1,000 people" ;
@@ -1561,7 +1661,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "24.5 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "792,198" .
+                "792,198" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Djibouti" .
 
 <https://www.wikipedia.org/Belize>
         <HospitalBeds_URL>  "1.3 per 1,000 people" ;
@@ -1588,7 +1690,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "25.58 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "334,297" .
+                "334,297" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Belize" .
 
 <https://www.wikipedia.org/TheBahamas>
         <HospitalBeds_URL>  "3.4 per 1,000 people" ;
@@ -1615,7 +1719,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "15.81 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "319,031" .
+                "319,031" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/TheBahamas" .
 
 <https://www.wikipedia.org/Cocos(Keeling)Islands>
         <http://www.nationmaster.com/country-info/stats/Labor/Unemployment-rate>
@@ -1654,7 +1760,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "18.77 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "5.79 million" .
+                "5.79 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Nicaragua" .
 
 <https://www.wikipedia.org/NorfolkIsland>
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
@@ -1698,7 +1806,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "15.7 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "277,293" .
+                "277,293" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/FrenchPolynesia" .
 
 <https://www.wikipedia.org/NATOcountriesaverage>
         <HospitalBeds_URL>  "6.18 per 1,000 people" ;
@@ -1721,7 +1831,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10.44 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "22.36 million" .
+                "22.36 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/NATOcountriesaverage" .
 
 <https://www.wikipedia.org/BosniaandHerzegovina>
         <HospitalBeds_URL>  "3.1 per 1,000 people" ;
@@ -1756,7 +1868,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "8.92 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "3.88 million" .
+                "3.88 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/BosniaandHerzegovina" .
 
 <https://www.wikipedia.org/Scotland>
         <http://www.nationmaster.com/country-info/stats/People/Population>
@@ -1797,7 +1911,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "8.37 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "81.15 million" .
+                "81.15 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Germany" .
 
 <https://www.wikipedia.org/Lithuania>
         <HospitalBeds_URL>  "8.7 per 1,000 people" ;
@@ -1834,7 +1950,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "9.36 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "3.52 million" .
+                "3.52 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Lithuania" .
 
 <https://www.wikipedia.org/LatinAmericaandCaribbeanaverage>
         <HospitalBeds_URL>  "2.89 per 1,000 people" ;
@@ -1849,7 +1967,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "17.04 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "16.62 million" .
+                "16.62 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/LatinAmericaandCaribbeanaverage" .
 
 <https://www.wikipedia.org/Guinea>
         <HospitalBeds_URL>  "0.55 per 1,000 people" ;
@@ -1874,7 +1994,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "36.3 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "11.18 million" .
+                "11.18 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Guinea" .
 
 <https://www.wikipedia.org/BouvetIsland>
         <http://www.nationmaster.com/country-info/stats/People/Population>
@@ -1895,7 +2017,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "36.05 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "186,817" .
+                "186,817" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/SaoTomeandPrincipe" .
 
 <https://www.wikipedia.org/Australia>
         <HospitalBeds_URL>  "7.4 per 1,000 people" ;
@@ -1932,7 +2056,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "12.23 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "22.26 million" .
+                "22.26 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Australia" .
 
 <https://www.wikipedia.org/England>
         <http://www.nationmaster.com/country-info/stats/People/Population>
@@ -1963,7 +2089,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "12.1 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "288,725" .
+                "288,725" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Barbados" .
 
 <https://www.wikipedia.org/Italy>
         <HospitalBeds_URL>  "4.4 per 1,000 people" ;
@@ -2000,7 +2128,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "8.94 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "61.48 million" .
+                "61.48 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Italy" .
 
 <https://www.wikipedia.org/Zimbabwe>
         <HospitalBeds_URL>  "0.51 per 1,000 people" ;
@@ -2031,7 +2161,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "32.41 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "13.18 million" .
+                "13.18 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Zimbabwe" .
 
 <https://www.wikipedia.org/Argentina>
         <HospitalBeds_URL>  "4.1 per 1,000 people" ;
@@ -2064,7 +2196,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "17.12 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "42.61 million" .
+                "42.61 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Argentina" .
 
 <https://www.wikipedia.org/Bhutan>
         <HospitalBeds_URL>  "1.6 per 1,000 people" ;
@@ -2093,7 +2227,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "18.43 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "725,296" .
+                "725,296" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Bhutan" .
 
 <https://www.wikipedia.org/Tajikistan>
         <HospitalBeds_URL>  "6.1 per 1,000 people" ;
@@ -2128,7 +2264,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "25.49 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "7.91 million" .
+                "7.91 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Tajikistan" .
 
 <https://www.wikipedia.org/Svalbard>
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
@@ -2167,7 +2305,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "38.78 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "174.51 million" .
+                "174.51 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Nigeria" .
 
 <https://www.wikipedia.org/PapuaNewGuinea>
         <HospitalBeds_URL>  "4.02 per 1,000 people" ;
@@ -2198,7 +2338,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "25.4 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "6.43 million" .
+                "6.43 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/PapuaNewGuinea" .
 
 <https://www.wikipedia.org/Maldives>
         <HospitalBeds_URL>  "1.7 per 1,000 people" ;
@@ -2225,7 +2367,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "15.38 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "393,988" .
+                "393,988" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Maldives" .
 
 <https://www.wikipedia.org/Tuvalu>
         <http://www.nationmaster.com/country-info/stats/Economy/GDP>
@@ -2233,7 +2377,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "23.56 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "10,698" .
+                "10,698" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Tuvalu" .
 
 <https://www.wikipedia.org/Netherlands>
         <HospitalBeds_URL>  "4.7 per 1,000 people" ;
@@ -2270,7 +2416,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10.85 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "16.81 million" .
+                "16.81 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Netherlands" .
 
 <https://www.wikipedia.org/Singapore>
         <HospitalBeds_URL>  "2.9 per 1,000 people" ;
@@ -2305,7 +2453,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "7.91 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "5.46 million" .
+                "5.46 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Singapore" .
 
 <https://www.wikipedia.org/Togo>
         <HospitalBeds_URL>  "1.51 per 1,000 people" ;
@@ -2328,7 +2478,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "34.9 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "7.15 million" .
+                "7.15 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Togo" .
 
 <https://www.wikipedia.org/VirginIslands>
         <HospitalBeds_URL>  "18.68 per 1,000 people" ;
@@ -2362,7 +2514,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "8.88 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "85,293" .
+                "85,293" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Andorra" .
 
 <https://www.wikipedia.org/SaintPierreandMiquelon>
         <http://www.nationmaster.com/country-info/stats/Energy/Electricity/Consumption>
@@ -2407,7 +2561,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "30.84 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "34.85 million" .
+                "34.85 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Sudan" .
 
 <https://www.wikipedia.org/Gabon>
         <HospitalBeds_URL>  "3.19 per 1,000 people" ;
@@ -2438,7 +2594,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "34.82 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "1.64 million" .
+                "1.64 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Gabon" .
 
 <https://www.wikipedia.org/SaintMartin>
         <http://www.nationmaster.com/country-info/stats/People/Population>
@@ -2475,7 +2633,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "12.66 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "67.45 million" .
+                "67.45 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Thailand" .
 
 <https://www.wikipedia.org/Norway>
         <HospitalBeds_URL>  "3.8 per 1,000 people" ;
@@ -2512,7 +2672,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10.8 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "4.72 million" .
+                "4.72 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Norway" .
 
 <https://www.wikipedia.org/Niger>
         <HospitalBeds_URL>  "0.12 per 1,000 people" ;
@@ -2537,7 +2699,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "46.84 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "16.9 million" .
+                "16.9 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Niger" .
 
 <https://www.wikipedia.org/Afghanistan>
         <HospitalBeds_URL>  "0.4 per 1,000 people" ;
@@ -2568,7 +2732,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "39.05 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "31.11 million" .
+                "31.11 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Afghanistan" .
 
 <https://www.wikipedia.org/Montenegro>
         <http://www.nationmaster.com/country-info/stats/Cost-of-living/Average-monthly-disposable-salary/After-tax>
@@ -2590,7 +2756,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10.75 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "653,474" .
+                "653,474" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Montenegro" .
 
 <https://www.wikipedia.org/Tunisia>
         <HospitalBeds_URL>  "1.7 per 1,000 people" ;
@@ -2621,7 +2789,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "17.12 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "10.84 million" .
+                "10.84 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Tunisia" .
 
 <https://www.wikipedia.org/SaintVincentandtheGrenadines>
         <HospitalBeds_URL>  "4.5 per 1,000 people" ;
@@ -2642,7 +2812,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "14.12 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "103,220" .
+                "103,220" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/SaintVincentandtheGrenadines" .
 
 <https://www.wikipedia.org/Sweden>
         <HospitalBeds_URL>  "3.6 per 1,000 people" ;
@@ -2679,7 +2851,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10.33 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "9.12 million" .
+                "9.12 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Sweden" .
 
 <https://www.wikipedia.org/Zambia>
         <HospitalBeds_URL>  "3.48 per 1,000 people" ;
@@ -2712,7 +2886,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "42.79 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "14.22 million" .
+                "14.22 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Zambia" .
 
 <https://www.wikipedia.org/CookIslands>
         <http://www.nationmaster.com/country-info/stats/Energy/Electricity/Consumption>
@@ -2755,7 +2931,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "20.61 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "2.7 million" .
+                "2.7 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Kuwait" .
 
 <https://www.wikipedia.org/Portugal>
         <HospitalBeds_URL>  "3.6 per 1,000 people" ;
@@ -2792,7 +2970,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "9.59 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "10.8 million" .
+                "10.8 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Portugal" .
 
 <https://www.wikipedia.org/Comoros>
         <HospitalBeds_URL>  "2.76 per 1,000 people" ;
@@ -2815,7 +2995,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "30.26 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "752,288" .
+                "752,288" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Comoros" .
 
 <https://www.wikipedia.org/Panama>
         <HospitalBeds_URL>  "2.5 per 1,000 people" ;
@@ -2846,7 +3028,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "18.91 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "3.56 million" .
+                "3.56 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Panama" .
 
 <https://www.wikipedia.org/Tonga>
         <HospitalBeds_URL>  "3.2 per 1,000 people" ;
@@ -2867,7 +3051,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "24.12 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "106,322" .
+                "106,322" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Tonga" .
 
 <https://www.wikipedia.org/Anguilla>
         <http://www.nationmaster.com/country-info/stats/Energy/Electricity/Consumption>
@@ -2909,7 +3095,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "19.14 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "48.6 million" .
+                "48.6 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/SouthAfrica" .
 
 <https://www.wikipedia.org/FormerSovietrepublicsaverage>
         <HospitalBeds_URL>  "7.33 per 1,000 people" ;
@@ -2930,7 +3118,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "14.75 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "19.29 million" .
+                "19.29 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/FormerSovietrepublicsaverage" .
 
 <https://www.wikipedia.org/JanMayen>
         <http://www.nationmaster.com/country-info/stats/People/Population>
@@ -2965,7 +3155,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "17.63 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "415,717" .
+                "415,717" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Brunei" .
 
 <https://www.wikipedia.org/DominicanRepublic>
         <HospitalBeds_URL>  "2.1 per 1,000 people" ;
@@ -2994,7 +3186,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "19.21 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "10.22 million" .
+                "10.22 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/DominicanRepublic" .
 
 <https://www.wikipedia.org/NewCaledonia>
         <http://www.nationmaster.com/country-info/stats/Cost-of-living/Average-monthly-disposable-salary/After-tax>
@@ -3016,7 +3210,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "15.81 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "264,022" .
+                "264,022" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/NewCaledonia" .
 
 <https://www.wikipedia.org/Japan>
         <HospitalBeds_URL>  "14.3 per 1,000 people" ;
@@ -3049,7 +3245,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "8.23 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "127.25 million" .
+                "127.25 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Japan" .
 
 <https://www.wikipedia.org/MiddleEasternandNorthAfricaaverage>
         <HospitalBeds_URL>  "2.26 per 1,000 people" ;
@@ -3070,7 +3268,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "20.38 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "21.8 million" .
+                "21.8 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/MiddleEasternandNorthAfricaaverage" .
 
 <https://www.wikipedia.org/EquatorialGuinea>
         <HospitalBeds_URL>  "2.8 per 1,000 people" ;
@@ -3099,7 +3299,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "34.35 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "704,001" .
+                "704,001" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/EquatorialGuinea" .
 
 <https://www.wikipedia.org/FrenchGuiana>
         <http://www.nationmaster.com/country-info/stats/Energy/Electricity/Consumption>
@@ -3140,7 +3342,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "24.62 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "105.72 million" .
+                "105.72 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Philippines" .
 
 <https://www.wikipedia.org/FalklandIslands(IslasMalvinas)>
         <http://www.nationmaster.com/country-info/stats/Cost-of-living/Real-estate-prices/Rent-per-month/3-bedroom-apartment/City-centre>
@@ -3181,7 +3385,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "16.25 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "4.7 million" .
+                "4.7 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/CostaRica" .
 
 <https://www.wikipedia.org/Christiancountriesaverage>
         <http://www.nationmaster.com/country-info/stats/Economy/GDP>
@@ -3195,7 +3401,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "18.61 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "18.85 million" .
+                "18.85 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Christiancountriesaverage" .
 
 <https://www.wikipedia.org/Non-religiouscountriesaverage>
         <HospitalBeds_URL>  "6.55 per 1,000 people" ;
@@ -3218,7 +3426,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "11.74 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "141.07 million" .
+                "141.07 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Non-religiouscountriesaverage" .
 
 <https://www.wikipedia.org/FormerBritishcoloniesaverage>
         <HospitalBeds_URL>  "3.81 per 1,000 people" ;
@@ -3237,7 +3447,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "22.53 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "51.84 million" .
+                "51.84 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/FormerBritishcoloniesaverage" .
 
 <https://www.wikipedia.org/Ghana>
         <HospitalBeds_URL>  "1.46 per 1,000 people" ;
@@ -3268,7 +3480,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "31.7 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "25.2 million" .
+                "25.2 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Ghana" .
 
 <https://www.wikipedia.org/Kazakhstan>
         <HospitalBeds_URL>  "7.7 per 1,000 people" ;
@@ -3303,7 +3517,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "20.03 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "17.74 million" .
+                "17.74 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Kazakhstan" .
 
 <https://www.wikipedia.org/JarvisIsland>
         <http://www.nationmaster.com/country-info/stats/People/Population>
@@ -3340,7 +3556,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "18.85 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "29.85 million" .
+                "29.85 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Peru" .
 
 <https://www.wikipedia.org/Yemen>
         <HospitalBeds_URL>  "0.6 per 1,000 people" ;
@@ -3367,7 +3585,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "31.63 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "25.41 million" .
+                "25.41 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Yemen" .
 
 <https://www.wikipedia.org/Romania>
         <HospitalBeds_URL>  "6.6 per 1,000 people" ;
@@ -3404,7 +3624,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "9.4 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "21.79 million" .
+                "21.79 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Romania" .
 
 <https://www.wikipedia.org/PitcairnIslands>
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
@@ -3433,7 +3655,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "24.71 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "321.91 million" .
+                "321.91 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/SouthAsiaaverage" .
 
 <https://www.wikipedia.org/India>
         <HospitalBeds_URL>  "0.9 per 1,000 people" ;
@@ -3470,7 +3694,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "20.24 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "1.22 billion" .
+                "1.22 billion" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/India" .
 
 <https://www.wikipedia.org/Rwanda>
         <HospitalBeds_URL>  "1.65 per 1,000 people" ;
@@ -3499,7 +3725,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "35.49 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "12.01 million" .
+                "12.01 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Rwanda" .
 
 <https://www.wikipedia.org/RepublicofMacedonia>
         <http://www.nationmaster.com/country-info/stats/Conflict/Terrorism/Global-Terrorism-Index>
@@ -3527,7 +3755,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "11.72 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "2.09 million" .
+                "2.09 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/RepublicofMacedonia" .
 
 <https://www.wikipedia.org/Antarctica>
         <http://www.nationmaster.com/country-info/stats/People/Population>
@@ -3568,7 +3798,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "12.6 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "65.95 million" .
+                "65.95 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/France" .
 
 <https://www.wikipedia.org/Nepal>
         <HospitalBeds_URL>  "0.2 per 1,000 people" ;
@@ -3605,7 +3837,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "21.48 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "30.43 million" .
+                "30.43 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Nepal" .
 
 <https://www.wikipedia.org/Austria>
         <HospitalBeds_URL>  "8.3 per 1,000 people" ;
@@ -3642,7 +3876,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "8.73 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "8.22 million" .
+                "8.22 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Austria" .
 
 <https://www.wikipedia.org/Namibia>
         <http://www.nationmaster.com/country-info/stats/Conflict/Terrorism/Global-Terrorism-Index>
@@ -3672,7 +3908,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "20.72 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "2.18 million" .
+                "2.18 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Namibia" .
 
 <https://www.wikipedia.org/Touristdestinationsaverage>
         <http://www.nationmaster.com/country-info/stats/Economy/GDP>
@@ -3680,7 +3918,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "12.38 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "4.66 million" .
+                "4.66 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Touristdestinationsaverage" .
 
 <https://www.wikipedia.org/Grenada>
         <HospitalBeds_URL>  "5.7 per 1,000 people" ;
@@ -3703,7 +3943,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "16.57 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "109,590" .
+                "109,590" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Grenada" .
 
 <https://www.wikipedia.org/Morocco>
         <HospitalBeds_URL>  "0.8 per 1,000 people" ;
@@ -3736,7 +3978,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "18.73 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "32.65 million" .
+                "32.65 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Morocco" .
 
 <https://www.wikipedia.org/Coted'Ivoire>
         <HospitalBeds_URL>  "0.81 per 1,000 people" ;
@@ -3761,7 +4005,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "29.83 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "22.4 million" .
+                "22.4 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Coted'Ivoire" .
 
 <https://www.wikipedia.org/Albania>
         <HospitalBeds_URL>  "3.1 per 1,000 people" ;
@@ -3798,7 +4044,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "12.57 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "3.01 million" .
+                "3.01 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Albania" .
 
 <https://www.wikipedia.org/CaymanIslands>
         <HospitalBeds_URL>  "3 per 1,000 people" ;
@@ -3817,7 +4065,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "12.17 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "53,737" .
+                "53,737" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/CaymanIslands" .
 
 <https://www.wikipedia.org/Chile>
         <HospitalBeds_URL>  "2.6 per 1,000 people" ;
@@ -3850,7 +4100,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "14.12 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "17.22 million" .
+                "17.22 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Chile" .
 
 <https://www.wikipedia.org/Slovenia>
         <HospitalBeds_URL>  "5 per 1,000 people" ;
@@ -3887,7 +4139,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "8.66 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "1.99 million" .
+                "1.99 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Slovenia" .
 
 <https://www.wikipedia.org/Slovakia>
         <HospitalBeds_URL>  "7.2 per 1,000 people" ;
@@ -3924,7 +4178,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10.27 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "5.49 million" .
+                "5.49 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Slovakia" .
 
 <https://www.wikipedia.org/Laos>
         <HospitalBeds_URL>  "1.2 per 1,000 people" ;
@@ -3957,7 +4213,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "25.23 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "6.7 million" .
+                "6.7 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Laos" .
 
 <https://www.wikipedia.org/HighincomeOECDcountriesaverage>
         <HospitalBeds_URL>  "6.13 per 1,000 people" ;
@@ -3980,7 +4238,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10.96 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "33.9 million" .
+                "33.9 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/HighincomeOECDcountriesaverage" .
 
 <https://www.wikipedia.org/Mali>
         <HospitalBeds_URL>  "0.24 per 1,000 people" ;
@@ -4011,7 +4271,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "46.06 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "15.97 million" .
+                "15.97 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Mali" .
 
 <https://www.wikipedia.org/Ireland>
         <HospitalBeds_URL>  "4.3 per 1,000 people" ;
@@ -4048,7 +4310,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "15.5 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "4.78 million" .
+                "4.78 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Ireland" .
 
 <https://www.wikipedia.org/WallisandFutuna>
         <http://www.nationmaster.com/country-info/stats/Labor/Unemployment-rate>
@@ -4075,7 +4339,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "9.03 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "583,003" .
+                "583,003" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Macau" .
 
 <https://www.wikipedia.org/Guadeloupe>
         <http://www.nationmaster.com/country-info/stats/Energy/Electricity/Consumption>
@@ -4108,7 +4374,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "19.95 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "23.2 million" .
+                "23.2 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/FormerSpanishcoloniesaverage" .
 
 <https://www.wikipedia.org/CzechRepublic>
         <HospitalBeds_URL>  "8.8 per 1,000 people" ;
@@ -4145,7 +4413,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "8.55 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "10.16 million" .
+                "10.16 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/CzechRepublic" .
 
 <https://www.wikipedia.org/Venezuela>
         <HospitalBeds_URL>  "0.8 per 1,000 people" ;
@@ -4178,7 +4448,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "19.66 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "28.46 million" .
+                "28.46 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Venezuela" .
 
 <https://www.wikipedia.org/Guam>
         <http://www.nationmaster.com/country-info/stats/Cost-of-living/Average-monthly-disposable-salary/After-tax>
@@ -4226,7 +4498,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "31.39 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "6.23 million" .
+                "6.23 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Eritrea" .
 
 <https://www.wikipedia.org/Cameroon>
         <HospitalBeds_URL>  "2.55 per 1,000 people" ;
@@ -4257,7 +4531,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "31.93 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "20.55 million" .
+                "20.55 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Cameroon" .
 
 <https://www.wikipedia.org/Estonia>
         <HospitalBeds_URL>  "6 per 1,000 people" ;
@@ -4294,7 +4570,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10.38 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "1.27 million" .
+                "1.27 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Estonia" .
 
 <https://www.wikipedia.org/SintMaarten(Dutchpart)>
         <http://www.nationmaster.com/country-info/stats/Health/Life-expectancy-at-birth%2C-total/Years>
@@ -4327,7 +4605,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "21.7 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "195,476" .
+                "195,476" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Samoa" .
 
 <https://www.wikipedia.org/Moldova>
         <HospitalBeds_URL>  "6.7 per 1,000 people" ;
@@ -4362,7 +4642,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "12.38 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "3.62 million" .
+                "3.62 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Moldova" .
 
 <https://www.wikipedia.org/Turkmenistan>
         <HospitalBeds_URL>  "7.11 per 1,000 people" ;
@@ -4397,7 +4679,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "19.53 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "5.11 million" .
+                "5.11 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Turkmenistan" .
 
 <https://www.wikipedia.org/SaintBarthelemy>
         <http://www.nationmaster.com/country-info/stats/People/Population>
@@ -4438,7 +4722,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10.14 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "47.37 million" .
+                "47.37 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Spain" .
 
 <https://www.wikipedia.org/ElSalvador>
         <HospitalBeds_URL>  "1.65 per 1,000 people" ;
@@ -4469,7 +4755,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "17.12 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "6.11 million" .
+                "6.11 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/ElSalvador" .
 
 <https://www.wikipedia.org/Mayotte>
         <http://www.nationmaster.com/country-info/stats/Energy/Electricity/Consumption>
@@ -4512,7 +4800,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "23.01 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "22.46 million" .
+                "22.46 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Syria" .
 
 <https://www.wikipedia.org/Kiribati>
         <HospitalBeds_URL>  "1.8 per 1,000 people" ;
@@ -4529,7 +4819,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "22.18 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "103,248" .
+                "103,248" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Kiribati" .
 
 <https://www.wikipedia.org/Groupof7countries(G7)average>
         <HospitalBeds_URL>  "6.7 per 1,000 people" ;
@@ -4552,7 +4844,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10.62 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "107.21 million" .
+                "107.21 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Groupof7countries(G7)average" .
 
 <https://www.wikipedia.org/Mauritania>
         <HospitalBeds_URL>  "0.67 per 1,000 people" ;
@@ -4579,7 +4873,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "32.31 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "3.44 million" .
+                "3.44 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Mauritania" .
 
 <https://www.wikipedia.org/Armenia>
         <HospitalBeds_URL>  "4.4 per 1,000 people" ;
@@ -4616,7 +4912,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "12.86 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "2.97 million" .
+                "2.97 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Armenia" .
 
 <https://www.wikipedia.org/IsleofMan>
         <http://www.nationmaster.com/country-info/stats/Cost-of-living/Average-monthly-disposable-salary/After-tax>
@@ -4630,7 +4928,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "11.27 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "86,159" .
+                "86,159" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/IsleofMan" .
 
 <https://www.wikipedia.org/MidwayIslands>
         <http://www.nationmaster.com/country-info/stats/People/Population>
@@ -4671,7 +4971,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "9.37 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "9.94 million" .
+                "9.94 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Hungary" .
 
 <https://www.wikipedia.org/Guinea-Bissau>
         <HospitalBeds_URL>  "1.48 per 1,000 people" ;
@@ -4696,7 +4998,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "34.28 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "1.66 million" .
+                "1.66 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Guinea-Bissau" .
 
 <https://www.wikipedia.org/Muslimcountriesaverage>
         <HospitalBeds_URL>  "3.18 per 1,000 people" ;
@@ -4717,7 +5021,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "25.45 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "32.61 million" .
+                "32.61 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Muslimcountriesaverage" .
 
 <https://www.wikipedia.org/Azerbaijan>
         <HospitalBeds_URL>  "8.3 per 1,000 people" ;
@@ -4754,7 +5060,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "17.17 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "9.59 million" .
+                "9.59 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Azerbaijan" .
 
 <https://www.wikipedia.org/Monaco>
         <HospitalBeds_URL>  "19.57 per 1,000 people" ;
@@ -4771,7 +5079,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "6.79 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "30,500" .
+                "30,500" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Monaco" .
 
 <https://www.wikipedia.org/Europeaverage>
         <http://www.nationmaster.com/country-info/stats/Economy/GDP>
@@ -4789,7 +5099,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10.63 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "16.79 million" .
+                "16.79 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Europeaverage" .
 
 <https://www.wikipedia.org/Sparselypopulatedcountriesaverage>
         <http://www.nationmaster.com/country-info/stats/Economy/GDP>
@@ -4805,7 +5117,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "24 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "12.44 million" .
+                "12.44 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Sparselypopulatedcountriesaverage" .
 
 <https://www.wikipedia.org/NorthKorea>
         <http://www.nationmaster.com/country-info/stats/Conflict/Terrorism/Global-Terrorism-Index>
@@ -4852,7 +5166,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "23.35 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "9.89 million" .
+                "9.89 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Haiti" .
 
 <https://www.wikipedia.org/Cyprus>
         <HospitalBeds_URL>  "4.4 per 1,000 people" ;
@@ -4885,7 +5201,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "11.45 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "1.16 million" .
+                "1.16 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Cyprus" .
 
 <https://www.wikipedia.org/Montserrat>
         <http://www.nationmaster.com/country-info/stats/Energy/Electricity/Consumption>
@@ -4922,7 +5240,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "20.96 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "531,046" .
+                "531,046" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/CapeVerde" .
 
 <https://www.wikipedia.org/Mauritius>
         <HospitalBeds_URL>  "3.07 per 1,000 people" ;
@@ -4951,7 +5271,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "13.62 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "1.32 million" .
+                "1.32 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Mauritius" .
 
 <https://www.wikipedia.org/Iran>
         <HospitalBeds_URL>  "1.6 per 1,000 people" ;
@@ -4980,7 +5302,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "18.4 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "79.85 million" .
+                "79.85 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Iran" .
 
 <https://www.wikipedia.org/PotentialFutureEUMembersaverage>
         <http://www.nationmaster.com/country-info/stats/Economy/GDP>
@@ -4990,7 +5314,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "11.93 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "12.47 million" .
+                "12.47 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/PotentialFutureEUMembersaverage" .
 
 <https://www.wikipedia.org/SouthernEuropeaverage>
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
@@ -5017,7 +5343,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "22.9 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "37.68 million" .
+                "37.68 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/OPECcountriesaverage" .
 
 <https://www.wikipedia.org/Catholiccountriesaverage>
         <http://www.nationmaster.com/country-info/stats/Economy/GDP>
@@ -5031,7 +5359,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "17.08 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "22.77 million" .
+                "22.77 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Catholiccountriesaverage" .
 
 <https://www.wikipedia.org/Burma>
         <HospitalBeds_URL>  "0.6 per 1,000 people" ;
@@ -5093,7 +5423,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "26.23 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "6.48 million" .
+                "6.48 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Jordan" .
 
 <https://www.wikipedia.org/FrenchSouthernandAntarcticLands>
         <http://www.nationmaster.com/country-info/stats/People/Population>
@@ -5126,7 +5458,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "33.61 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "41.41 million" .
+                "41.41 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/failedstatesaverage" .
 
 <https://www.wikipedia.org/Greenland>
         <HospitalBeds_URL>  "14.35 per 1,000 people" ;
@@ -5147,7 +5481,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "14.57 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "57,714" .
+                "57,714" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Greenland" .
 
 <https://www.wikipedia.org/Swaziland>
         <HospitalBeds_URL>  "3.37 per 1,000 people" ;
@@ -5176,7 +5512,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "25.68 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "1.4 million" .
+                "1.4 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Swaziland" .
 
 <https://www.wikipedia.org/NavassaIsland>
         <http://www.nationmaster.com/country-info/stats/People/Population>
@@ -5211,7 +5549,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10.27 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "411,277" .
+                "411,277" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Malta" .
 
 <https://www.wikipedia.org/UnitedKingdom>
         <HospitalBeds_URL>  "4.2 per 1,000 people" ;
@@ -5248,7 +5588,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "12.26 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "63.18 million" .
+                "63.18 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/UnitedKingdom" .
 
 <https://www.wikipedia.org/WesternSahara>
         <http://www.nationmaster.com/country-info/stats/Energy/Electricity/Consumption>
@@ -5289,7 +5631,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "24.43 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "3.15 million" .
+                "3.15 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Oman" .
 
 <https://www.wikipedia.org/UnitedStates>
         <HospitalBeds_URL>  "3.3 per 1,000 people" ;
@@ -5326,7 +5670,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "13.66 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "316.67 million" .
+                "316.67 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/UnitedStates" .
 
 <https://www.wikipedia.org/Guernsey>
         <http://www.nationmaster.com/country-info/stats/Cost-of-living/Average-monthly-disposable-salary/After-tax>
@@ -5381,7 +5727,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10.36 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "5.27 million" .
+                "5.27 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Finland" .
 
 <https://www.wikipedia.org/Denselypopulatedcountriesaverage>
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
@@ -5406,7 +5754,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "13.79 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "51,134" .
+                "51,134" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/SaintKittsandNevis" .
 
 <https://www.wikipedia.org/Paraguay>
         <HospitalBeds_URL>  "1.2 per 1,000 people" ;
@@ -5439,7 +5789,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "16.95 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "6.62 million" .
+                "6.62 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Paraguay" .
 
 <https://www.wikipedia.org/EuropeanUnionaverage>
         <HospitalBeds_URL>  "6.42 per 1,000 people" ;
@@ -5462,7 +5814,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10.17 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "18.19 million" .
+                "18.19 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/EuropeanUnionaverage" .
 
 <https://www.wikipedia.org/Poland>
         <HospitalBeds_URL>  "5.6 per 1,000 people" ;
@@ -5499,7 +5853,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "9.88 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "38.38 million" .
+                "38.38 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Poland" .
 
 <https://www.wikipedia.org/Heavilyindebtedcountriesaverage>
         <http://www.nationmaster.com/country-info/stats/Economy/GDP>
@@ -5515,7 +5871,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "16.11 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "26.09 million" .
+                "26.09 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Heavilyindebtedcountriesaverage" .
 
 <https://www.wikipedia.org/Uganda>
         <HospitalBeds_URL>  "0.92 per 1,000 people" ;
@@ -5546,7 +5904,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "44.5 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "34.76 million" .
+                "34.76 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Uganda" .
 
 <https://www.wikipedia.org/Croatia>
         <HospitalBeds_URL>  "5.5 per 1,000 people" ;
@@ -5583,7 +5943,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "9.53 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "4.48 million" .
+                "4.48 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Croatia" .
 
 <https://www.wikipedia.org/AntiguaandBarbuda>
         <HospitalBeds_URL>  "2.5 per 1,000 people" ;
@@ -5602,7 +5964,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "16.07 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "90,156" .
+                "90,156" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/AntiguaandBarbuda" .
 
 <https://www.wikipedia.org/Dominica>
         <HospitalBeds_URL>  "3.9 per 1,000 people" ;
@@ -5627,7 +5991,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "15.61 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "73,286" .
+                "73,286" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Dominica" .
 
 <https://www.wikipedia.org/Vanuatu>
         <HospitalBeds_URL>  "3.1 per 1,000 people" ;
@@ -5650,7 +6016,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "26.35 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "261,565" .
+                "261,565" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Vanuatu" .
 
 <https://www.wikipedia.org/AshmoreandCartierIslands>
         <http://www.nationmaster.com/country-info/stats/People/Population>
@@ -5694,7 +6062,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "37.02 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "9.88 million" .
+                "9.88 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Benin" .
 
 <https://www.wikipedia.org/MarshallIslands>
         <HospitalBeds_URL>  "2.1 per 1,000 people" ;
@@ -5709,7 +6079,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "27.21 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "69,747" .
+                "69,747" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/MarshallIslands" .
 
 <https://www.wikipedia.org/SaintHelena,Ascension,andTristandaCunha>
         <http://www.nationmaster.com/country-info/stats/Energy/Electricity/Consumption>
@@ -5750,7 +6122,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "9.92 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "11.06 million" .
+                "11.06 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Cuba" .
 
 <https://www.wikipedia.org/Uruguay>
         <HospitalBeds_URL>  "1.9 per 1,000 people" ;
@@ -5783,7 +6157,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "13.28 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "3.32 million" .
+                "3.32 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Uruguay" .
 
 <https://www.wikipedia.org/Guatemala>
         <HospitalBeds_URL>  "0.5 per 1,000 people" ;
@@ -5814,7 +6190,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "25.99 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "14.37 million" .
+                "14.37 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Guatemala" .
 
 <https://www.wikipedia.org/CentralAfricanRepublic>
         <HospitalBeds_URL>  "0.87 per 1,000 people" ;
@@ -5841,7 +6219,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "35.8 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "5.17 million" .
+                "5.17 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/CentralAfricanRepublic" .
 
 <https://www.wikipedia.org/Landlockedcountriesaverage>
         <http://www.nationmaster.com/country-info/stats/Economy/GDP>
@@ -5851,7 +6231,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "24.19 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "11.61 million" .
+                "11.61 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Landlockedcountriesaverage" .
 
 <https://www.wikipedia.org/Egypt>
         <HospitalBeds_URL>  "2.2 per 1,000 people" ;
@@ -5882,7 +6264,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "23.79 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "85.29 million" .
+                "85.29 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Egypt" .
 
 <https://www.wikipedia.org/Aruba>
         <http://www.nationmaster.com/country-info/stats/Cost-of-living/Average-monthly-disposable-salary/After-tax>
@@ -5902,7 +6286,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "12.72 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "109,153" .
+                "109,153" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Aruba" .
 
 <https://www.wikipedia.org/Liechtenstein>
         <http://www.nationmaster.com/country-info/stats/Economy/GDP>
@@ -5918,7 +6304,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10.67 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "37,009" .
+                "37,009" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Liechtenstein" .
 
 <https://www.wikipedia.org/ChannelIslands>
         <http://www.nationmaster.com/country-info/stats/Economy/GDP>
@@ -5926,7 +6314,9 @@
         <http://www.nationmaster.com/country-info/stats/Health/Life-expectancy-at-birth%2C-total/Years>
                 "79.98" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "161,235" .
+                "161,235" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/ChannelIslands" .
 
 <https://www.wikipedia.org/Coldcountriesaverage>
         <http://www.nationmaster.com/country-info/stats/Economy/GDP>
@@ -5946,7 +6336,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "12.45 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "53.84 million" .
+                "53.84 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Coldcountriesaverage" .
 
 <https://www.wikipedia.org/Liberia>
         <HospitalBeds_URL>  "1.65 per 1,000 people" ;
@@ -5975,7 +6367,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "35.75 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "3.99 million" .
+                "3.99 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Liberia" .
 
 <https://www.wikipedia.org/Hotcountriesaverage>
         <http://www.nationmaster.com/country-info/stats/Economy/GDP>
@@ -5991,7 +6385,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "24.15 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "34.14 million" .
+                "34.14 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Hotcountriesaverage" .
 
 <https://www.wikipedia.org/SolomonIslands>
         <HospitalBeds_URL>  "1.9 per 1,000 people" ;
@@ -6012,7 +6408,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "26.9 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "597,248" .
+                "597,248" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/SolomonIslands" .
 
 <https://www.wikipedia.org/RepublicoftheCongo>
         <http://www.nationmaster.com/country-info/stats/Conflict/Terrorism/Global-Terrorism-Index>
@@ -6024,7 +6422,9 @@
         <http://www.nationmaster.com/country-info/stats/Labor/Hours-worked/Standard-workweek>
                 "40 hours" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "4.34 million" .
+                "4.34 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/RepublicoftheCongo" .
 
 <https://www.wikipedia.org/NorthernMarianaIslands>
         <http://www.nationmaster.com/country-info/stats/Energy/Electricity/Consumption>
@@ -6067,7 +6467,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "14.79 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "4.13 million" .
+                "4.13 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Lebanon" .
 
 <https://www.wikipedia.org/Lesotho>
         <HospitalBeds_URL>  "1.63 per 1,000 people" ;
@@ -6096,7 +6498,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "26.31 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "1.94 million" .
+                "1.94 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Lesotho" .
 
 <https://www.wikipedia.org/Mexico>
         <HospitalBeds_URL>  "1 per 1,000 people" ;
@@ -6129,7 +6533,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "18.61 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "116.22 million" .
+                "116.22 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Mexico" .
 
 <https://www.wikipedia.org/Wales>
         <http://www.nationmaster.com/country-info/stats/People/Population>
@@ -6168,7 +6574,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "13.15 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "315,281" .
+                "315,281" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Iceland" .
 
 <https://www.wikipedia.org/EastTimor>
         <http://www.nationmaster.com/country-info/stats/Economy/GDP>
@@ -6190,7 +6598,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "34.85 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "1.17 million" .
+                "1.17 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/EastTimor" .
 
 <https://www.wikipedia.org/Canada>
         <HospitalBeds_URL>  "3.7 per 1,000 people" ;
@@ -6223,7 +6633,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10.28 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "34.57 million" .
+                "34.57 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Canada" .
 
 <https://www.wikipedia.org/Switzerland>
         <HospitalBeds_URL>  "6 per 1,000 people" ;
@@ -6260,7 +6672,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10.45 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "8 million" .
+                "8 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Switzerland" .
 
 <https://www.wikipedia.org/Seychelles>
         <HospitalBeds_URL>  "6.28 per 1,000 people" ;
@@ -6283,7 +6697,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "14.85 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "90,846" .
+                "90,846" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Seychelles" .
 
 <https://www.wikipedia.org/Taiwan>
         <http://www.nationmaster.com/country-info/stats/Conflict/Terrorism/Global-Terrorism-Index>
@@ -6354,7 +6770,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "16.56 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "92.48 million" .
+                "92.48 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Vietnam" .
 
 <https://www.wikipedia.org/Algeria>
         <HospitalBeds_URL>  "2.1 per 1,000 people" ;
@@ -6387,7 +6805,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "24.25 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "38.09 million" .
+                "38.09 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Algeria" .
 
 <https://www.wikipedia.org/Turkey>
         <HospitalBeds_URL>  "2.6 per 1,000 people" ;
@@ -6420,7 +6840,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "17.22 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "80.69 million" .
+                "80.69 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Turkey" .
 
 <https://www.wikipedia.org/SaintLucia>
         <HospitalBeds_URL>  "3.2 per 1,000 people" ;
@@ -6445,7 +6867,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "14.19 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "162,781" .
+                "162,781" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/SaintLucia" .
 
 <https://www.wikipedia.org/Ethiopia>
         <HospitalBeds_URL>  "0.24 per 1,000 people" ;
@@ -6476,7 +6900,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "38.07 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "93.88 million" .
+                "93.88 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Ethiopia" .
 
 <https://www.wikipedia.org/FaroeIslands>
         <http://www.nationmaster.com/country-info/stats/Cost-of-living/Average-monthly-disposable-salary/After-tax>
@@ -6517,7 +6943,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "37.77 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "5.61 million" .
+                "5.61 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/SierraLeone" .
 
 <https://www.wikipedia.org/AmericanSamoa>
         <http://www.nationmaster.com/country-info/stats/Energy/Electricity/Consumption>
@@ -6562,7 +6990,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "14.97 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "201.01 million" .
+                "201.01 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Brazil" .
 
 <https://www.wikipedia.org/Madagascar>
         <HospitalBeds_URL>  "0.42 per 1,000 people" ;
@@ -6593,7 +7023,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "33.58 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "22.6 million" .
+                "22.6 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Madagascar" .
 
 <https://www.wikipedia.org/Greece>
         <HospitalBeds_URL>  "4.7 per 1,000 people" ;
@@ -6630,7 +7062,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "8.94 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "10.77 million" .
+                "10.77 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Greece" .
 
 <https://www.wikipedia.org/Bolivia>
         <HospitalBeds_URL>  "1 per 1,000 people" ;
@@ -6663,7 +7097,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "23.77 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "10.46 million" .
+                "10.46 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Bolivia" .
 
 <https://www.wikipedia.org/SanMarino>
         <HospitalBeds_URL>  "7.16 per 1,000 people" ;
@@ -6678,7 +7114,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "8.78 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "32,448" .
+                "32,448" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/SanMarino" .
 
 <https://www.wikipedia.org/Kyrgyzstan>
         <HospitalBeds_URL>  "5.3 per 1,000 people" ;
@@ -6713,7 +7151,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "23.67 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "5.55 million" .
+                "5.55 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Kyrgyzstan" .
 
 <https://www.wikipedia.org/Honduras>
         <HospitalBeds_URL>  "1 per 1,000 people" ;
@@ -6744,7 +7184,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "24.16 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "8.45 million" .
+                "8.45 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Honduras" .
 
 <https://www.wikipedia.org/EuropeanUnion>
         <http://www.nationmaster.com/country-info/stats/Economy/GDP>
@@ -6762,7 +7204,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "9.83 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "509.04 million" .
+                "509.04 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/EuropeanUnion" .
 
 <https://www.wikipedia.org/Uzbekistan>
         <HospitalBeds_URL>  "5.5 per 1,000 people" ;
@@ -6797,7 +7241,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "17.2 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "28.66 million" .
+                "28.66 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Uzbekistan" .
 
 <https://www.wikipedia.org/TurksandCaicosIslands>
         <http://www.nationmaster.com/country-info/stats/Energy/Electricity/Consumption>
@@ -6838,7 +7284,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "10.08 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "2.04 million" .
+                "2.04 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Qatar" .
 
 <https://www.wikipedia.org/Kenya>
         <HospitalBeds_URL>  "1.65 per 1,000 people" ;
@@ -6869,7 +7317,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "30.08 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "44.04 million" .
+                "44.04 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Kenya" .
 
 <https://www.wikipedia.org/Tokelau>
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
@@ -6912,7 +7362,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "9.91 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "2.18 million" .
+                "2.18 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Latvia" .
 
 <https://www.wikipedia.org/HowlandIsland>
         <http://www.nationmaster.com/country-info/stats/People/Population>
@@ -6924,7 +7376,9 @@
         <http://www.nationmaster.com/country-info/stats/Health/Life-expectancy-at-birth%2C-total/Years>
                 "81.93" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "49,506" .
+                "49,506" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/FaeroeIslands" .
 
 <https://www.wikipedia.org/Curacao>
         <http://www.nationmaster.com/country-info/stats/Cost-of-living/Average-monthly-disposable-salary/After-tax>
@@ -6965,7 +7419,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "14.07 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "1.23 million" .
+                "1.23 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/TrinidadandTobago" .
 
 <https://www.wikipedia.org/Congo,Republicofthe>
         <HospitalBeds_URL>  "3.35 per 1,000 people" ;
@@ -7013,7 +7469,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "20.41 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "29.63 million" .
+                "29.63 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Malaysia" .
 
 <https://www.wikipedia.org/WestBank>
         <http://www.nationmaster.com/country-info/stats/Energy/Electricity/Consumption>
@@ -7054,7 +7512,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "36.34 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "75.51 million" .
+                "75.51 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/DemocraticRepublicoftheCongo" .
 
 <https://www.wikipedia.org/Kosovo>
         <http://www.nationmaster.com/country-info/stats/Economy/GDP>
@@ -7070,7 +7530,9 @@
         <http://www.nationmaster.com/country-info/stats/Labor/Male-retirement-age>
                 "65" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "1.85 million" .
+                "1.85 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Kosovo" .
 
 <https://www.wikipedia.org/UnitedArabEmirates>
         <HospitalBeds_URL>  "2.2 per 1,000 people" ;
@@ -7101,7 +7563,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "15.65 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "5.47 million" .
+                "5.47 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/UnitedArabEmirates" .
 
 <https://www.wikipedia.org/Bangladesh>
         <HospitalBeds_URL>  "0.3 per 1,000 people" ;
@@ -7134,7 +7598,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "22.07 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "163.65 million" .
+                "163.65 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Bangladesh" .
 
 <https://www.wikipedia.org/Colombia>
         <HospitalBeds_URL>  "1.1 per 1,000 people" ;
@@ -7171,7 +7637,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "16.98 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "45.75 million" .
+                "45.75 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Colombia" .
 
 <https://www.wikipedia.org/Bahrain>
         <HospitalBeds_URL>  "2.8 per 1,000 people" ;
@@ -7200,7 +7668,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "14.16 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "1.28 million" .
+                "1.28 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Bahrain" .
 
 <https://www.wikipedia.org/Luxembourg>
         <HospitalBeds_URL>  "6 per 1,000 people" ;
@@ -7231,7 +7701,9 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "11.72 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "514,862" .
+                "514,862" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Luxembourg" .
 
 <https://www.wikipedia.org/ParacelIslands>
         <http://www.nationmaster.com/country-info/stats/People/Population>
@@ -7258,4 +7730,6 @@
         <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
                 "15.08 births/1,000 population" ;
         <http://www.nationmaster.com/country-info/stats/People/Population>
-                "163.96 million" .
+                "163.96 million" ;
+        <http://www.nationmaster.com/hasName>
+                "https://www.wikipedia.org/Emergingmarketsaverage" .

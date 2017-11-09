@@ -100,6 +100,75 @@ public class Main {
 			e.printStackTrace();
 		}
 	}
+	
+	public static void convertToRDFAddCountry(Model model, Resource hasType,String fileName) {
+
+		JSONParser parser = new JSONParser();
+		// add the property
+		//Resource HAS = model.createProperty("https://www.usc.edu/Has");
+
+		try {     
+			Object obj = parser.parse(new FileReader(fileName));
+
+			JSONObject jsonObject =  (JSONObject) obj;
+			System.out.println("test: " + jsonObject.toJSONString());
+			System.out.println("get: " + jsonObject.get("data"));
+			JSONArray a = (JSONArray) jsonObject.get("data");
+			System.out.println(a);
+		
+			for (int i = 0; i < a.size(); i++) {
+				JSONObject b = (JSONObject) a.get(i);
+				System.out.println(b.get("country") + " : " + b.get("amount"));
+				
+				// add the property
+				/*
+				Resource countryGDP = model.createResource(b.get("country").toString());
+			
+
+				
+						model.createResource().addProperty((Property) HAS, b.get("country").toString())
+						.addProperty((Property) HAS, b.get("amount").toString());
+						*/
+				
+				// some definitions
+				String personURI    = "http://somewhere/JohnSmith";
+				String givenName    = "John";
+				String familyName   = "Smith";
+				String fullName     = givenName + " " + familyName;
+
+				// create an empty Model
+				//Model model = ModelFactory.createDefaultModel();
+
+				// create the resource
+				//   and add the properties cascading style
+				String st = b.get("country").toString();
+				st = st.replaceAll("\\s+","");
+				st = "https://www.wikipedia.org/" + st;
+				System.out.println(st);
+				Resource johnSmith
+				  = model.createResource(st)
+				         .addProperty((Property)hasType, st);
+				         
+						
+
+			}
+
+
+			//String amount = (String) jsonObject.get("amount");
+			//System.out.println(amount);
+
+
+
+
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+	}
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
@@ -122,6 +191,7 @@ public class Main {
 		String StandardWorkWeek_URL = "http://www.nationmaster.com/country-info/stats/Labor/Hours-worked/Standard-workweek";
 		String AverageMonthlyDisposableSalary_URL = "http://www.nationmaster.com/country-info/stats/Cost-of-living/Average-monthly-disposable-salary/After-tax";
 		String RealEstatePrices_URL = "http://www.nationmaster.com/country-info/stats/Cost-of-living/Real-estate-prices/Rent-per-month/3-bedroom-apartment/City-centre";
+		String CountryName_URL = "http://www.nationmaster.com/hasName";
 		
 		
 
@@ -209,6 +279,9 @@ public class Main {
 		
 		Resource hasUnemploymentRate = model.createProperty(UnemploymentRate_URL);
 		convertToRDF(model, hasUnemploymentRate, "Unemployment Rate.json");
+		
+		Resource hasName = model.createProperty(CountryName_URL);
+		convertToRDFAddCountry(model, hasName, "GDP.json");
 		
 		
 
