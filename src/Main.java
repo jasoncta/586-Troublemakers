@@ -322,9 +322,9 @@ public class Main {
 		// create an empty Model
 		Model model = ModelFactory.createDefaultModel();
 		
-		//Resource hasBirthRate = model.createProperty(BirthRate_URL);
-		//convertToRDF(model, hasBirthRate, "Birth Rate.json");
-		/*
+		Resource hasBirthRate = model.createProperty(BirthRate_URL);
+		convertToRDF(model, hasBirthRate, "Birth Rate.json");
+		
 		
 		Resource hasGDP = model.createProperty(GDP_URL);
 		convertToRDFWithInt(model, hasGDP, "GDP.json");
@@ -377,9 +377,9 @@ public class Main {
 		Resource hasUnemploymentRate = model.createProperty(UnemploymentRate_URL);
 		convertToRDF(model, hasUnemploymentRate, "Unemployment Rate.json");
 		
-		*/
-		Resource hasCO2Emission = model.createProperty(CO2PerCountry_URL);
-		convertToRDFfromEUData(model, hasCO2Emission, "co2_2016.json");
+		
+		//Resource hasCO2Emission = model.createProperty(CO2PerCountry_URL);
+		//convertToRDFfromEUData(model, hasCO2Emission, "co2_2016.json");
 		
 		
 		//Resource hasName = model.createProperty(CountryName_URL);

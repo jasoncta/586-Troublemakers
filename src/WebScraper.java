@@ -37,7 +37,7 @@ public class WebScraper {
 						item.put("amount", parseMoney(amount));
 					}
 					else {
-						item.put("amount", amount);
+						item.put("amount", parseAmount(amount));
 					}
 					
 					item.put("date", date);
@@ -111,6 +111,10 @@ public class WebScraper {
 	
 	public double parseMoney(String n) {
 		return parseNumber(n.replace("$", "").replace("US", ""));
+	}
+	
+	public double parseAmount(String n) {
+		return Double.parseDouble(n.replaceAll(",", "").replace("%", "").split(" ")[0]);
 	}
 	
 	public double parseNumber(String n) { 
