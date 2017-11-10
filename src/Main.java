@@ -74,7 +74,7 @@ public class Main {
 				//   and add the properties cascading style
 				String st = b.get("country").toString();
 				st = st.replaceAll("\\s+","");
-				st = "https://www.wikipedia.org/" + st;
+				st = "https://www.sir-lab.usc.edu/cs586/" + st;
 				System.out.println(st);
 				Resource johnSmith
 				  = model.createResource(st)
@@ -101,6 +101,100 @@ public class Main {
 		}
 	}
 	
+	public static void convertToRDFWithInt(Model model, Resource hasType,String fileName) {
+
+		JSONParser parser = new JSONParser();
+		// add the property
+		
+
+		try {     
+			Object obj = parser.parse(new FileReader(fileName));
+
+			JSONObject jsonObject =  (JSONObject) obj;
+			System.out.println("test: " + jsonObject.toJSONString());
+			System.out.println("get: " + jsonObject.get("data"));
+			JSONArray a = (JSONArray) jsonObject.get("data");
+			System.out.println(a);
+			
+			for (int i = 0; i < a.size(); i++) {
+				JSONObject b = (JSONObject) a.get(i);
+				System.out.println(b.get("country") + " : " + b.get("amount"));
+				
+			
+				// create an empty Model
+				//Model model = ModelFactory.createDefaultModel();
+
+				// create the resource
+				//   and add the properties cascading style
+				String st = b.get("country").toString();
+				st = st.replaceAll("\\s+","");
+				st = "https://www.sir-lab.usc.edu/cs586/" + st;
+				System.out.println(st);
+				Resource johnSmith
+				  = model.createResource(st)
+				         .addProperty((Property)hasType, model.createTypedLiteral(b.get("amount")));
+				         
+						
+
+			}
+
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void convertToRDFfromEUData(Model model, Resource hasType,String fileName) {
+
+		JSONParser parser = new JSONParser();
+		// add the property
+		
+
+		try {     
+			Object obj = parser.parse(new FileReader(fileName));
+
+			JSONObject jsonObject =  (JSONObject) obj;
+			System.out.println("test: " + jsonObject.toJSONString());
+			System.out.println("get: " + jsonObject.get("data"));
+			JSONArray a = (JSONArray) jsonObject.get("data");
+			System.out.println(a);
+			
+			for (int i = 0; i < a.size(); i++) {
+				JSONObject b = (JSONObject) a.get(i);
+				System.out.println(b.get("country") + " : " + b.get("amount"));
+				
+			
+				// create an empty Model
+				//Model model = ModelFactory.createDefaultModel();
+
+				// create the resource
+				//   and add the properties cascading style
+				String st = b.get("country").toString();
+				st = st.replaceAll("\\s+","");
+				st = "https://www.sir-lab.usc.edu/cs586/" + st;
+				System.out.println(st);
+				Resource johnSmith
+				  = model.createResource(st)
+				         .addProperty((Property)hasType, model.createTypedLiteral(b.get("amount")));
+				         
+						
+
+			}
+
+
+		} catch (FileNotFoundException e) {
+			e.printStackTrace();
+		} catch (IOException e) {
+			e.printStackTrace();
+		} catch (ParseException e) {
+			e.printStackTrace();
+		}
+	}
+	
 	public static void convertToRDFAddCountry(Model model, Resource hasType,String fileName) {
 
 		JSONParser parser = new JSONParser();
@@ -114,6 +208,7 @@ public class Main {
 			System.out.println("test: " + jsonObject.toJSONString());
 			System.out.println("get: " + jsonObject.get("data"));
 			JSONArray a = (JSONArray) jsonObject.get("data");
+		
 			System.out.println(a);
 		
 			for (int i = 0; i < a.size(); i++) {
@@ -192,6 +287,7 @@ public class Main {
 		String AverageMonthlyDisposableSalary_URL = "http://www.nationmaster.com/country-info/stats/Cost-of-living/Average-monthly-disposable-salary/After-tax";
 		String RealEstatePrices_URL = "http://www.nationmaster.com/country-info/stats/Cost-of-living/Real-estate-prices/Rent-per-month/3-bedroom-apartment/City-centre";
 		String CountryName_URL = "http://www.nationmaster.com/hasName";
+		String CO2PerCountry_URL = "http://edgar.jrc.ec.europa.eu/overview.php?v=CO2ts1990-2015&sort=des9";
 		
 		
 
@@ -226,11 +322,12 @@ public class Main {
 		// create an empty Model
 		Model model = ModelFactory.createDefaultModel();
 		
-		Resource hasBirthRate = model.createProperty(BirthRate_URL);
-		convertToRDF(model, hasBirthRate, "Birth Rate.json");
+		//Resource hasBirthRate = model.createProperty(BirthRate_URL);
+		//convertToRDF(model, hasBirthRate, "Birth Rate.json");
+		/*
 		
 		Resource hasGDP = model.createProperty(GDP_URL);
-		convertToRDF(model, hasGDP, "GDP.json");
+		convertToRDFWithInt(model, hasGDP, "GDP.json");
 		
 		Resource hasAverageMonthlyDisposableSalary = model.createProperty(AverageMonthlyDisposableSalary_URL);
 		convertToRDF(model, hasAverageMonthlyDisposableSalary, "Average Monthly Disposable Salary.json");
@@ -275,13 +372,18 @@ public class Main {
 		convertToRDF(model, hasStandardWorkWeek, "Standard Work Week.json");
 		
 		Resource hasTerrorism = model.createProperty(Terrorism_URL);
-		convertToRDF(model, hasTerrorism, "Terrorism.json");
+		convertToRDFWithInt(model, hasTerrorism, "Terrorism.json");
 		
 		Resource hasUnemploymentRate = model.createProperty(UnemploymentRate_URL);
 		convertToRDF(model, hasUnemploymentRate, "Unemployment Rate.json");
 		
-		Resource hasName = model.createProperty(CountryName_URL);
-		convertToRDFAddCountry(model, hasName, "GDP.json");
+		*/
+		Resource hasCO2Emission = model.createProperty(CO2PerCountry_URL);
+		convertToRDFfromEUData(model, hasCO2Emission, "co2_2016.json");
+		
+		
+		//Resource hasName = model.createProperty(CountryName_URL);
+		//convertToRDFAddCountry(model, hasName, "GDP.json");
 		
 		
 

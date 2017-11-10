@@ -32,7 +32,8 @@ public class SparqlTest {
 		String queryString = //"SELECT ?x WHERE { ?x  <http://www.w3.org/2001/vcard-rdf/3.0#Family>  \"Smith\"}";
 				//"SELECT ?titles WHERE {<http://example.org/book/book2> ?titles \"SPARQL Tutorial2\" .}";
 				//"SELECT ?x ?titles WHERE {<http://example.org/book/book2> ?x ?titles .}";
-				"SELECT * WHERE {?x <http://www.nationmaster.com/country-info/stats/Economy/GDP> ?titles .}";
+				"SELECT * WHERE {?x <http://www.nationmaster.com/country-info/stats/Economy/GDP> ?gdp . " +
+				"FILTER(?gdp > 10000000000000)}";
 				
 				/*
 				"PREFIX vcard: <http://www.w3.org/2001/vcard-rdf/3.0#> " +
