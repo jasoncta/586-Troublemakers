@@ -127,7 +127,11 @@ public class Main {
 				// create the resource
 				//   and add the properties cascading style
 				String st = b.get("country").toString();
+	
 				st = st.replaceAll("\\s+","");
+				if(st.equals("UnitedStatesofAmerica")) {
+					st = "UnitedStates";
+				}
 				st = "https://www.sir-lab.usc.edu/cs586/" + st;
 				System.out.println(st);
 				Resource johnSmith
@@ -158,14 +162,16 @@ public class Main {
 			Object obj = parser.parse(new FileReader(fileName));
 
 			JSONObject jsonObject =  (JSONObject) obj;
-			System.out.println("test: " + jsonObject.toJSONString());
-			System.out.println("get: " + jsonObject.get("data"));
+			//System.out.println("test: " + jsonObject.toJSONString());
+			//System.out.println("get: " + jsonObject.get("data"));
 			JSONArray a = (JSONArray) jsonObject.get("data");
 			System.out.println(a);
 			
 			for (int i = 0; i < a.size(); i++) {
+				
 				JSONObject b = (JSONObject) a.get(i);
-				System.out.println(b.get("country") + " : " + b.get("amount"));
+				if(Integer.parseInt(b.get("date").toString()) == 2013) {
+				//System.out.println(b.get("country") + " : " + b.get("amount"));
 				
 			
 				// create an empty Model
@@ -173,13 +179,19 @@ public class Main {
 
 				// create the resource
 				//   and add the properties cascading style
+					
 				String st = b.get("country").toString();
+				if(st.equals("United States of America")) {
+					st = "United States";
+				}
 				st = st.replaceAll("\\s+","");
 				st = "https://www.sir-lab.usc.edu/cs586/" + st;
 				System.out.println(st);
 				Resource johnSmith
+				
 				  = model.createResource(st)
 				         .addProperty((Property)hasType, model.createTypedLiteral(b.get("amount")));
+				}
 				         
 						
 
@@ -287,8 +299,10 @@ public class Main {
 		String AverageMonthlyDisposableSalary_URL = "http://www.nationmaster.com/country-info/stats/Cost-of-living/Average-monthly-disposable-salary/After-tax";
 		String RealEstatePrices_URL = "http://www.nationmaster.com/country-info/stats/Cost-of-living/Real-estate-prices/Rent-per-month/3-bedroom-apartment/City-centre";
 		String CountryName_URL = "http://www.nationmaster.com/hasName";
-		String CO2PerCountry_URL = "http://edgar.jrc.ec.europa.eu/overview.php?v=CO2ts1990-2015&sort=des9";
-		
+		String CO2PerCountry_URL = "http://edgar.jrc.ec.europa.eu/overview.php?v=CO2ts1990-2015";
+		String CO2PerCountryPC_URL = "http://edgar.jrc.ec.europa.eu/overview.php?v=CO2ts_pc1990-2013";
+		String PatentNum_URL = "http://www.wipo.int/ipstats/en/wipi/index.html/NumberOfPatents";
+		String PatentChangePercent_URL = "http://www.wipo.int/ipstats/en/wipi/index.html/PatentChangePercent";
 		
 
 		WebScraper web = new WebScraper();
@@ -322,65 +336,79 @@ public class Main {
 		// create an empty Model
 		Model model = ModelFactory.createDefaultModel();
 		
+		
+		
 		Resource hasBirthRate = model.createProperty(BirthRate_URL);
-		convertToRDF(model, hasBirthRate, "Birth Rate.json");
+		convertToRDFWithInt(model, hasBirthRate, "Birth Rate.json");
 		
 		
 		Resource hasGDP = model.createProperty(GDP_URL);
 		convertToRDFWithInt(model, hasGDP, "GDP.json");
 		
 		Resource hasAverageMonthlyDisposableSalary = model.createProperty(AverageMonthlyDisposableSalary_URL);
-		convertToRDF(model, hasAverageMonthlyDisposableSalary, "Average Monthly Disposable Salary.json");
+		convertToRDFWithInt(model, hasAverageMonthlyDisposableSalary, "Average Monthly Disposable Salary.json");
 		
 		Resource hasElectricityConsumption = model.createProperty(ElectricityConsumption_URL);
-		convertToRDF(model, hasElectricityConsumption, "Electricity Consumption.json");
+		convertToRDFWithInt(model, hasElectricityConsumption, "Electricity Consumption.json");
 		
 		Resource hasEmploymentRate = model.createProperty(EmploymentRate_URL);
-		convertToRDF(model, hasEmploymentRate, "Employment Rate.json");
+		convertToRDFWithInt(model, hasEmploymentRate, "Employment Rate.json");
 		
 		Resource hasFemaleRetirement = model.createProperty(FemaleRetirement_URL);
-		convertToRDF(model, hasFemaleRetirement, "Female Retirement.json");
+		convertToRDFWithInt(model, hasFemaleRetirement, "Female Retirement.json");
 		
 		Resource hasGasolinePrices = model.createProperty(GasolinePrices_URL);
-		convertToRDF(model, hasGasolinePrices, "Gasoline Prices.json");
+		convertToRDFWithInt(model, hasGasolinePrices, "Gasoline Prices.json");
 		
-		Resource hasHospitalBeds = model.createProperty("HospitalBeds_URL");
-		convertToRDF(model, hasHospitalBeds, "Hospital Beds.json");
+		Resource hasHospitalBeds = model.createProperty(HospitalBeds_URL);
+		convertToRDFWithInt(model, hasHospitalBeds, "Hospital Beds.json");
 		
 		Resource hasLaborForce = model.createProperty(LaborForce_URL);
-		convertToRDF(model, hasLaborForce, "Labor Force.json");
+		convertToRDFWithInt(model, hasLaborForce, "Labor Force.json");
 		
 		Resource hasLifeExpectancy = model.createProperty(LifeExpectancy_URL);
-		convertToRDF(model, hasLifeExpectancy, "Life Expectancy.json");
+		convertToRDFWithInt(model, hasLifeExpectancy, "Life Expectancy.json");
 		
 		Resource hasMaleRetirement = model.createProperty(MaleRetirement_URL);
-		convertToRDF(model, hasMaleRetirement, "Male Retirement.json");
+		convertToRDFWithInt(model, hasMaleRetirement, "Male Retirement.json");
 		
 		Resource hasMilitaryBudget = model.createProperty(MilitaryBudget_URL);
-		convertToRDF(model, hasMilitaryBudget, "Military Budget.json");
+		convertToRDFWithInt(model, hasMilitaryBudget, "Military Budget.json");
 		
 		Resource hasOilConsumption = model.createProperty(OilConsumption_URL);
-		convertToRDF(model, hasOilConsumption, "Oil Consumption.json");
+		convertToRDFWithInt(model, hasOilConsumption, "Oil Consumption.json");
 		
 		Resource hasPopulation = model.createProperty(Population_URL);
-		convertToRDF(model, hasPopulation, "Population.json");
+		convertToRDFWithInt(model, hasPopulation, "Population.json");
 		
 		Resource hasRealEstatePrices = model.createProperty(RealEstatePrices_URL);
-		convertToRDF(model, hasRealEstatePrices, "Real Estate Prices.json");
+		convertToRDFWithInt(model, hasRealEstatePrices, "Real Estate Prices.json");
 		
 		Resource hasStandardWorkWeek = model.createProperty(StandardWorkWeek_URL);
-		convertToRDF(model, hasStandardWorkWeek, "Standard Work Week.json");
+		convertToRDFWithInt(model, hasStandardWorkWeek, "Standard Work Week.json");
 		
 		Resource hasTerrorism = model.createProperty(Terrorism_URL);
 		convertToRDFWithInt(model, hasTerrorism, "Terrorism.json");
 		
 		Resource hasUnemploymentRate = model.createProperty(UnemploymentRate_URL);
-		convertToRDF(model, hasUnemploymentRate, "Unemployment Rate.json");
+		convertToRDFWithInt(model, hasUnemploymentRate, "Unemployment Rate.json");
 		
 		
-		//Resource hasCO2Emission = model.createProperty(CO2PerCountry_URL);
-		//convertToRDFfromEUData(model, hasCO2Emission, "co2_2016.json");
 		
+		
+		Resource hasCO2Emission = model.createProperty(CO2PerCountry_URL);
+		convertToRDFfromEUData(model, hasCO2Emission, "co2_report.json");
+		
+		Resource hasCO2EmissionPerCapita = model.createProperty(CO2PerCountryPC_URL);
+		convertToRDFfromEUData(model, hasCO2EmissionPerCapita, "co2_per_capita.json");
+		
+		Resource hasPatentNum = model.createProperty(PatentNum_URL);
+		convertToRDFWithInt(model, hasPatentNum, "A08.json");
+		convertToRDFWithInt(model, hasPatentNum, "A10.json");
+		
+		Resource hasPatentChangePercent = model.createProperty(PatentChangePercent_URL);
+		convertToRDFWithInt(model, hasPatentChangePercent, "A09.json");
+		convertToRDFWithInt(model, hasPatentChangePercent, "A11.json");
 		
 		//Resource hasName = model.createProperty(CountryName_URL);
 		//convertToRDFAddCountry(model, hasName, "GDP.json");
