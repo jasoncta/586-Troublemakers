@@ -1,0 +1,13 @@
+SELECT ?subject ?patent ?gdp
+WHERE {
+  ?subject <http://www.wipo.int/ipstats/en/wipi/index.html/NumberOfPatents> ?patent .
+  ?subject <http://www.nationmaster.com/country-info/stats/Economy/GDP> ?gdp.
+ 
+ 
+  
+  
+  
+  }
+ORDER BY DESC(?gdp)
+LIMIT 10
+
