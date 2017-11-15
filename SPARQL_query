@@ -11,3 +11,19 @@ WHERE {
 ORDER BY DESC(?gdp)
 LIMIT 10
 
+
+
+SELECT ?subject ?oil ?CO2 ?CO2perCaptia
+WHERE {
+  ?subject <http://www.nationmaster.com/country-info/stats/Energy/Oil/Consumption> ?oil .
+  ?subject <http://edgar.jrc.ec.europa.eu/overview.php?v=CO2ts1990-2015> ?CO2.
+  <http://edgar.jrc.ec.europa.eu/overview.php?v=CO2ts_pc1990-2013> ?CO2perCaptia.
+ 
+ 
+  
+  
+  
+  }
+ORDER BY DESC(?oil)
+LIMIT 10
+
