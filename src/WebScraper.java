@@ -88,16 +88,6 @@ public class WebScraper {
 		
 	}
 	
-	public double formatAmount(String n) {
-		double res = 0.0;
-		if(isMoney(n)) {
-			res = parseMoney(n);
-		}
-		else if(isFigure(n)) {
-			res = parseNumber(n); 
-		}
-		return res;
-	}
 	
 	public Boolean isMoney(String n) {
 		return n.toLowerCase().contains("$") == true;
@@ -114,7 +104,18 @@ public class WebScraper {
 	}
 	
 	public double parseAmount(String n) {
-		return Double.parseDouble(n.replaceAll(",", "").replace("%", "").split(" ")[0]);
+		double number = Double.parseDouble(n.replaceAll(",", "").replace("%", "").split(" ")[0]);
+		String rest = n.replaceAll(",", "").replace("%", "").split(" ").length > 1 ? n.replaceAll(",", "").replace("%", "").split(" ")[1] : "";
+		if(rest.contains("million") || rest.contains("MN")) {
+			number = number * 10e6;
+		}
+		if(rest.contains("billion") || rest.contains("BN")) {
+			number = number * 10e9;
+		}
+		if(rest.contains("trillion") || rest.contains("TN")) {
+			number = number * 10e12;
+		}
+		return number;
 	}
 	
 	public double parseNumber(String n) { 
