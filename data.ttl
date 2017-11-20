@@ -346,28 +346,6 @@
         <http://www.nationmaster.com/country-info/stats/People/Population>
                 4.34E7 .
 
-<https://www.sir-lab.usc.edu/cs586/failedstatesaverage>
-        <http://www.nationmaster.com/country-info/stats/Economy/GDP>
-                6.356E11 ;
-        <http://www.nationmaster.com/country-info/stats/Energy/Electricity/Consumption>
-                6.29E10 ;
-        <http://www.nationmaster.com/country-info/stats/Energy/Gasoline-prices>
-                "0.965"^^<http://www.w3.org/2001/XMLSchema#double> ;
-        <http://www.nationmaster.com/country-info/stats/Energy/Oil/Consumption>
-                "110733.33"^^<http://www.w3.org/2001/XMLSchema#double> ;
-        <http://www.nationmaster.com/country-info/stats/Health/Hospital-beds/Per-1%2C000-people>
-                "0.951"^^<http://www.w3.org/2001/XMLSchema#double> ;
-        <http://www.nationmaster.com/country-info/stats/Health/Life-expectancy-at-birth%2C-total/Years>
-                "56.62"^^<http://www.w3.org/2001/XMLSchema#double> ;
-        <http://www.nationmaster.com/country-info/stats/Labor/Employment-rate/Adults>
-                "60.51"^^<http://www.w3.org/2001/XMLSchema#double> ;
-        <http://www.nationmaster.com/country-info/stats/Labor/Force/Total/Per-capita>
-                "0.39"^^<http://www.w3.org/2001/XMLSchema#double> ;
-        <http://www.nationmaster.com/country-info/stats/People/Birth-rate>
-                "33.61"^^<http://www.w3.org/2001/XMLSchema#double> ;
-        <http://www.nationmaster.com/country-info/stats/People/Population>
-                4.1409999999999994E8 .
-
 <https://www.sir-lab.usc.edu/cs586/Macao>
         <http://edgar.jrc.ec.europa.eu/overview.php?v=CO2ts_pc1990-2013>
                 "2.366"^^<http://www.w3.org/2001/XMLSchema#double> .
