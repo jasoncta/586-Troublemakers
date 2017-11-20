@@ -50,10 +50,16 @@ function numberWithCommas(x) {
     return parts.join(".");
 }
 
+function numberWithCommas(x) {
+    var parts = x.toString().split(".");
+    parts[0] = parts[0].replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+    return parts.join(".");
+}
+
 function formatData(data){
   var dd = []
   data.results.bindings.forEach(function(d) {
-    dd.push({subject: d.subject.value, object1: +d.predicate1.value, object2: +d.predicate2.value})
+    dd.push({subject: d.subject.value, object1: numberWithCommas(+d.predicate1.value), object2: numberWithCommas(+d.predicate2.value)})
   })
   return dd
 }
