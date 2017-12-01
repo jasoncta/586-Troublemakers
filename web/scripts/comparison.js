@@ -37,8 +37,8 @@ function makeGraphs(error, data) {
       }
     ])
     .size(Infinity)
-    .sortBy(function(d) { return d.object; })
-    .order(d3.descending);
+    .sortBy(function(d) { return d.subject; })
+    .order(d3.ascending);
 
   dc.renderAll();
 
