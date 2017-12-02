@@ -1,0 +1,351 @@
+<html>
+<style>
+.filterDiv {
+  float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 200px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.container {
+  margin-top: 20px;
+  overflow: hidden;
+}
+</style>
+<body>
+
+<h2>Nation Analytics</h2>
+
+<input type="radio" onclick="filterSelection('all')" name="category" checked> Show all<br>
+<input type="radio" onclick="filterSelection('economy')" name="category"> Economy<br>
+<input type="radio" onclick="filterSelection('labor')" name="category"> Labor<br>
+<input type="radio" onclick="filterSelection('real estate')" name="category"> Real Estate<br>
+<input type="radio" onclick="filterSelection('environment')" name="category"> Environment<br>
+<input type="radio" onclick="filterSelection('people')" name="category"> People<br>
+<input type="radio" onclick="filterSelection('energy')" name="category"> Energy<br>
+<input type="radio" onclick="filterSelection('health')" name="category"> Health<br>
+<div class="container">
+  <div class="filterDiv economy">GDP</div>
+  <div class="filterDiv labor">Female Retirement Rate</div>
+  <div class="filterDiv labor">Male Retirement Rate</div>
+  <div class="filterDiv labor">Employment Rate</div>
+  <div class="filterDiv labor">Standard Work week</div>
+  <div class="filterDiv labor">Labor Force</div>
+  <div class="filterDiv real estate">Cost Of Living</div>
+  <div class="filterDiv environment">C02 Emissions</div>
+  <div class="filterDiv environment">CO2 Per Capita</div>
+  <div class="filterDiv people">Population</div>
+  <div class="filterDiv people">Birth Rate</div>
+  <div class="filterDiv energy">Oil Consumption</div>
+  <div class="filterDiv energy">Electricity Consumption</div>
+  <div class="filterDiv energy">Gasoline Prices</div>
+  <div class="filterDiv health">Hospital Beds</div>
+  <div class="filterDiv health">Life Expectancy</div>
+  
+</div>
+
+<script>
+filterSelection("all")
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("filterDiv");
+  if (c == "all") c = "";
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+  }
+}
+
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+    }
+  }
+  element.className = arr1.join(" ");
+}
+</script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {
+        'packages':['geochart'],
+        // Note: you will need to get a mapsApiKey for your project.
+        // See: https://developers.google.com/chart/interactive/docs/basic_load_libs#load-settings
+        'mapsApiKey': 'AIzaSyD-9tSrke72PouQMnMX-a7eZSW0jkFMBWY'
+      });
+      google.charts.setOnLoadCallback(drawRegionsMap);
+
+      function drawRegionsMap() {
+      
+        var data = google.visualization.arrayToDataTable([
+          ['Country', 'GDP'],
+          ['Germany', 8.115E8],
+          ['United States', 1.568E14],
+          ['Brazil', 2.25E13],
+          ['Canada', 1.82E13],
+          ['France', 2.61E13],
+          ['RU', 1.368E14]
+        ]);
+        
+        var data1 = google.visualization.arrayToDataTable([
+          ['Country', 'Labor Force'],
+          ['India', 0.200],
+          ['Colombia', 0.300],
+          ['Romania', 0.400],
+          ['Pakistan', 0.500],
+          ['Belgium', 0.600],
+          ['Mexico', 0.700]
+        ]);
+        
+        var data2 = google.visualization.arrayToDataTable([
+          ['Country', 'Female Retirement Rate'],
+          ['Hong Kong', 65],
+          ['Switzerland', 63],
+          ['Japan', 68],
+          ['Iceland', 69],
+          ['Spain', 62],
+          ['Italy', 68]
+        ]);
+        
+        var data3 = google.visualization.arrayToDataTable([
+          ['Country', 'Male Retirement Rate'],
+          ['Singapore', 72],
+          ['United States', 73],
+          ['Australia', 74],
+          ['Sweden', 70],
+          ['France', 76],
+          ['Israel', 71]
+        ]);
+        
+        var data4 = google.visualization.arrayToDataTable([
+          ['Country', 'Employment Rate'],
+          ['Venezuela', 82.3],
+          ['Norway', 83.6],
+          ['China', 84.7],
+          ['Canada', 85.8],
+          ['Indonesia', 86.5],
+          ['Japan', 89.9]
+        ]);
+        
+        
+        var data5 = google.visualization.arrayToDataTable([
+          ['Country', 'Standard Work Week'],
+          ['Germany', 53],
+          ['Belgium', 54],
+          ['Bulgaria', 53.3],
+          ['Canada', 55.5],
+          ['France', 58],
+          ['Finland', 51]
+        ]);
+        
+        var data6 = google.visualization.arrayToDataTable([
+          ['Country', 'Cost of living'],
+          ['Hong Kong', 500],
+          ['Switzerland', 800],
+          ['Japan', 400],
+          ['Iceland', 500],
+          ['Spain', 600],
+          ['Italy', 700]
+        ]);
+        
+        var data7 = google.visualization.arrayToDataTable([
+           ['Country', 'CO2 Emissions'],
+          ['Venezuela', 67.8],
+          ['Norway', 37.4],
+          ['China', 86.7],
+          ['Canada', 43.8],
+          ['Indonesia', 43.4],
+          ['Japan', 67.9]
+        ]);
+        
+        var data8 = google.visualization.arrayToDataTable([
+          ['Country', 'CO2 per capita'],
+          ['India', 43.6],
+          ['Colombia', 44.6],
+          ['Romania', 56.7],
+          ['Pakistan', 58.5],
+          ['Belgium', 33.4],
+          ['Mexico', 67.4]
+        ]);
+        
+         var data9 = google.visualization.arrayToDataTable([
+          ['Country', 'Population'],
+          ['India', 6.988E12],
+          ['Brazil', 4.988E12],
+          ['Argentina', 1.988E11],
+          ['Indonesia', 8.988E9],
+          ['Australia', 2.988E8],
+          ['Mexico', 1.988E11]
+        ]);
+        
+        
+         var data10 = google.visualization.arrayToDataTable([
+          ['Country', 'Birth Rate'],
+          ['India', 69],
+          ['Colombia', 43],
+          ['Romania', 32],
+          ['Pakistan', 45],
+          ['Belgium', 33],
+          ['Mexico', 45]
+        ]);
+        
+        
+        
+         var data11 = google.visualization.arrayToDataTable([
+          ['Country', 'Oil Consumption'],
+          ['Yemen', 5.374E11],
+          ['Russia', 7.535E11],
+          ['Greece', 5.374E11],
+          ['Pakistan', 4.535E11],
+          ['Romania', 6.988E12],
+          ['Mexico', 6.588E12]
+        ]);
+        
+        
+        
+         var data12 = google.visualization.arrayToDataTable([
+          ['Country', 'Electricity Consumption'],
+          ['India', 6.988E12],
+          ['Colombia', 4.535E11],
+          ['Romania', 5.374E11],
+          ['Pakistan', 7.01E11],
+          ['Bulgaria', 6.535E11],
+          ['Mexico',7.535E11]
+        ]);
+        
+        
+         var data13 = google.visualization.arrayToDataTable([
+          ['Country', 'Gasoline Prices'],
+         ['Venezuela',1.5],
+          ['Norway',2.2],
+          ['China', 3.3],
+          ['Canada', 1.6],
+          ['Indonesia',3.3],
+          ['Japan', 2.5]
+        ]);
+        
+          var data14 = google.visualization.arrayToDataTable([
+          ['Country', 'Hospital Beds'],
+          ['Hong Kong', 20.5],
+          ['Switzerland', 21.5],
+          ['Japan', 27.5],
+          ['Iceland', 22.3],
+          ['Spain', 20.6],
+          ['Italy', 19]
+        ]);
+        
+        
+          var data15 = google.visualization.arrayToDataTable([
+          ['Country', 'Life Expectancy'],
+          ['Hong Kong', 74],
+          ['Mexico', 72],
+          ['Spain', 77],
+          ['China', 76],
+          ['Indonesia', 73],
+          ['Romania', 72]
+        ]);
+
+        var options = {};
+
+        var chart = new google.visualization.GeoChart(document.getElementById('regions_div'));
+
+    var div = document.getElementsByClassName('Economy')[0];
+          div.addEventListener('click', function (event) {
+        chart.draw(data, options);
+ });
+ 
+     var div1 = document.getElementsByClassName('Labor')[4];
+          div1.addEventListener('click', function (event) {
+        chart.draw(data1, options);
+ });
+ 
+  var div2 = document.getElementsByClassName('Labor')[0];
+          div2.addEventListener('click', function (event) {
+        chart.draw(data2, options);
+ });
+ 
+   var div3 = document.getElementsByClassName('Labor')[1];
+          div3.addEventListener('click', function (event) {
+        chart.draw(data3, options);
+ });
+ 
+ 
+ var div4 = document.getElementsByClassName('Labor')[2];
+          div4.addEventListener('click', function (event) {
+        chart.draw(data4, options);
+ });
+ var div5 = document.getElementsByClassName('Labor')[3];
+          div5.addEventListener('click', function (event) {
+        chart.draw(data5, options);
+ });
+ var div6 = document.getElementsByClassName('Real Estate')[0];
+          div6.addEventListener('click', function (event) {
+        chart.draw(data6, options);
+ });
+ var div7 = document.getElementsByClassName('Environment')[0];
+          div7.addEventListener('click', function (event) {
+        chart.draw(data7, options);
+ });
+ var div8 = document.getElementsByClassName('Environment')[1];
+          div8.addEventListener('click', function (event) {
+        chart.draw(data8, options);
+ });
+var div9 = document.getElementsByClassName('People')[0];
+          div9.addEventListener('click', function (event) {
+        chart.draw(data9, options);
+ });
+  var div10 = document.getElementsByClassName('People')[1];
+          div10.addEventListener('click', function (event) {
+        chart.draw(data10, options);
+ });
+ 
+  var div11 = document.getElementsByClassName('Energy')[0];
+          div11.addEventListener('click', function (event) {
+        chart.draw(data11, options);
+ });
+  var div12 = document.getElementsByClassName('Energy')[1];
+          div12.addEventListener('click', function (event) {
+        chart.draw(data12, options);
+ });
+ 
+  var div13 = document.getElementsByClassName('Energy')[2];
+          div13.addEventListener('click', function (event) {
+        chart.draw(data13, options);
+ });
+  var div14 = document.getElementsByClassName('Health')[0];
+          div14.addEventListener('click', function (event) {
+        chart.draw(data14, options);
+ });
+  var div15 = document.getElementsByClassName('Health')[1];
+          div15.addEventListener('click', function (event) {
+        chart.draw(data15, options);
+ });
+ 
+ 
+ 
+ 
+      }
+    </script>
+    <div id="regions_div" style="width: 900px; height: 500px;"></div>
+  </body>
+</html>
