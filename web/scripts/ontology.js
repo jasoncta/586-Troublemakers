@@ -64,7 +64,7 @@ function makeGraphs(error, data) {
       },
       {
         label: "Metric",
-        format: function(d) { return d.object; }
+        format: function(d) { return numberWithCommas(d.object); }
       }
     ])
     .size(Infinity)
